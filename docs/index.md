@@ -9,7 +9,7 @@
 [学习方法](chapter-01-notes/02/1-method.html);
 [准备编程环境](chapter-01-notes/02/2-devcpp.html);
 [什么是程序](chapter-01-notes/03/1-program.html);
-[用 Dev 写项目](chapter-01-notes/03/1-project.html);
+[用 Dev 写项目](chapter-01-notes/03/2-project.html);
 [算术游戏](chapter-01-notes/04/1-game.html);
 [如何去做](chapter-01-notes/04/2-core.html);
 [游戏设置](chapter-01-notes/05/1-settings.html);
@@ -26,36 +26,44 @@
 
 ### 第 02 章 编程实战
    
-1. 
 
 ### 第 03 章 章节刷题
    
 1. 
 
-### 第 04 章 CSP-J 普及组初赛
+### 第 04 章 普及组初赛
+   
+14 
+[在线答题](chapter-04-junior-preliminary/14-C++2008-10-18.html)
+([PDF](chapter-04-junior-preliminary/pdf/14-NOIP-2008-junior-C++.pdf)) 
+15
+[在线答题](chapter-04-junior-preliminary/14-C++2008-10-18.html)
+([PDF](chapter-04-junior-preliminary/pdf/14-NOIP-2008-junior-C++.pdf)) 
+
+### 第 05 章 普及组复赛
+
+1. 
+
+### 第 06 章 普及组联赛
    
 1. 
 
-### 第 05 章 CSP-J 普及组复赛
-
-1. 
-
-### 第 06 章 CSP-S 提高组初赛
+### 第 07 章 提高组初赛
    
 1. 
 
-### 第 07 章 CSP-S 提高组复赛
-   
-1. 
-
-### 第 08 章 NOIP
+### 第 08 章 提高组复赛
    
 1.  
 
-### 第 09 章  软件工具
+### 第 09 章 提高组联赛
+   
+1.  
+
+### 第 10 章  软件工具
     
 1.  
 
-### 第 10 章 NOI Online 培训 
+### 第 11 章 NOI Online 培训 
     
 1.  
