@@ -10,27 +10,19 @@
 [准备编程环境](chapter-01-notes/02/2-devcpp.html);
 [什么是程序](chapter-01-notes/03/1-program.html);
 [用 Dev 写项目](chapter-01-notes/03/1-project.html);
-
-[算术游戏](chapter-01-notes/04/1-intro.html);
-[如何去做](chapter-01-notes/04/1-intro.html);
-
-[游戏设置](chapter-01-notes/05/1-intro.html);
-[命令行参数](chapter-01-notes/05/1-intro.html);
-
-[显示功能](chapter-01-notes/06/1-intro.html);
-[实现细节](chapter-01-notes/06/1-intro.html);
-
-[排序算法](chapter-01-notes/07/1-intro.html);
-[排序应用](chapter-01-notes/07/1-intro.html);
-
-[数学基础一](chapter-01-notes/08/1-intro.html);
-[数学基础二](chapter-01-notes/08/1-intro.html);
-
-[递推算法](chapter-01-notes/09/1-intro.html);
-[递归算法](chapter-01-notes/09/1-intro.html);
-
-[数学基础三](chapter-01-notes/10/1-intro.html);
-[大数计算](chapter-01-notes/10/1-intro.html);
+[算术游戏](chapter-01-notes/04/1-game.html);
+[如何去做](chapter-01-notes/04/2-core.html);
+[游戏设置](chapter-01-notes/05/1-settings.html);
+[命令行参数](chapter-01-notes/05/2-params.html);
+[显示功能](chapter-01-notes/06/1-display.html);
+[实现细节](chapter-01-notes/06/2-detail.html);
+[排序算法](chapter-01-notes/07/1-sort.html);
+[排序应用](chapter-01-notes/07/2-practice.html);
+[数学基础一](chapter-01-notes/08/1-concept.html);
+[数学基础二](chapter-01-notes/08/2-number.html);
+[递推算法](chapter-01-notes/09/1-recurrence.html);
+[递归算法](chapter-01-notes/09/2-recursion.html);
+[数学基础三](chapter-01-notes/10/1-math.html);
 
 ### 第 02 章 编程实战
    
