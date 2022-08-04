@@ -46,6 +46,7 @@
 
 ### 第 05 章 普及组复赛
 [25-2019](chapter-05-junior-repecharge/2019/junior-25-2019-C++.pdf)/[DAT](chapter-05-junior-repecharge/2019/junior-25-2019-data.zip)/[ANS](chapter-05-junior-repecharge/2019/junior-25-2019-answer.html);
+[24-2018](chapter-05-junior-repecharge/2018/junior-24-2018-C++.pdf)/[DAT](chapter-05-junior-repecharge/2018/junior-24-2018-data.zip)/[ANS](chapter-05-junior-repecharge/2018/junior-24-2018-answer.html);
 [23-2017](chapter-05-junior-repecharge/2017/junior-23-2017-C++.pdf)/[DAT](chapter-05-junior-repecharge/2017/junior-23-2017-data.zip)/[ANS](chapter-05-junior-repecharge/2017/junior-23-2017-answer.html);
 <!-- [22-2016](chapter-05-junior-repecharge/2016/junior-22-2016-C++.pdf)/[DAT](chapter-05-junior-repecharge/2016/junior-22-2016-data.zip)/[ANS](chapter-05-junior-repecharge/2016/junior-22-2016-answer.html);
 [21-2015](chapter-05-junior-repecharge/2015/junior-21-2015-C++.pdf)/[DAT](chapter-05-junior-repecharge/2015/junior-21-2015-data.zip)/[ANS](chapter-05-junior-repecharge/2015/junior-21-2015-answer.html);
