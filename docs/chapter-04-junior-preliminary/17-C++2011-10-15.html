@@ -1117,10 +1117,10 @@ int main()
             </div>
         </script>
 
-        <script src="../../assets/jquery/3.3.1/jquery-3.3.1.min.js"></script>
-        <script src="../../assets/angular/1.6.9/angular.min.js"></script>
-        <script src="../../assets/angular-ui-bootstrap/ui-bootstrap-tpls-2.5.0.js"></script>
-        <script src="../../assets/ng-dialog/1.4.0/js/ngDialog.min.js"></script>
+        <script src="../assets/jquery/3.3.1/jquery-3.3.1.min.js"></script>
+        <script src="../assets/angular/1.6.9/angular.min.js"></script>
+        <script src="../assets/angular-ui-bootstrap/ui-bootstrap-tpls-2.5.0.js"></script>
+        <script src="../assets/ng-dialog/1.4.0/js/ngDialog.min.js"></script>
 
         <script type="text/javascript">
             var app = angular.module('testApp', ['ui.bootstrap','ngDialog']);
@@ -1130,7 +1130,7 @@ int main()
                 $scope.ans = {};
                 $scope.score = {q1:0,q2:0,q3:0,q4:0,qq:0};
                 $scope.loadAnswers = function () {
-                    $http({method: 'GET',url: '../../assets/data/junior-2011-10-15.json'}).then(
+                    $http({method: 'GET',url: '../assets/data/junior-2011-10-15.json'}).then(
                         function successCallback(response) {
                             $scope.ans = response.data;
                             $log.info($scope.ans);
