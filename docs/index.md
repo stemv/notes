@@ -2,7 +2,7 @@
 
 ### 第 01 章 学习笔记
 
-[信竞简介](chapter-01-notes/0101-intro.md);
+[信竞简介](chapter-01-notes/00/1-intro.html);
 [相关资源](a.md);
 [给学弟学妹的一封信](a.md);
 [信竞宣言](a.md);
