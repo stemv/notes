@@ -45,9 +45,9 @@
 [14-2008](chapter-04-junior-preliminary/14-C++2008-10-18.html)/[PDF](chapter-04-junior-preliminary/pdf/14-NOIP-2008-junior-C++.pdf);
 
 ### 第 05 章 普及组复赛
-
+[25-2019](chapter-05-junior-repecharge/2019/junior-25-2019-C++.pdf)/[DAT](chapter-05-junior-repecharge/2019/junior-25-2019-data.zip)/[ANS](chapter-05-junior-repecharge/2019/junior-25-2019-answer.html);
 [23-2017](chapter-05-junior-repecharge/2017/junior-23-2017-C++.pdf)/[DAT](chapter-05-junior-repecharge/2017/junior-23-2017-data.zip)/[ANS](chapter-05-junior-repecharge/2017/junior-23-2017-answer.html);
-[22-2016](chapter-05-junior-repecharge/2016/junior-22-2016-C++.pdf)/[DAT](chapter-05-junior-repecharge/2016/junior-22-2016-data.zip)/[ANS](chapter-05-junior-repecharge/2016/junior-22-2016-answer.html);
+<!-- [22-2016](chapter-05-junior-repecharge/2016/junior-22-2016-C++.pdf)/[DAT](chapter-05-junior-repecharge/2016/junior-22-2016-data.zip)/[ANS](chapter-05-junior-repecharge/2016/junior-22-2016-answer.html);
 [21-2015](chapter-05-junior-repecharge/2015/junior-21-2015-C++.pdf)/[DAT](chapter-05-junior-repecharge/2015/junior-21-2015-data.zip)/[ANS](chapter-05-junior-repecharge/2015/junior-21-2015-answer.html);
 [20-2014](chapter-05-junior-repecharge/2014/junior-20-2014-C++.pdf)/[DAT](chapter-05-junior-repecharge/2014/junior-20-2014-data.zip)/[ANS](chapter-05-junior-repecharge/2014/junior-20-2014-answer.html);
 [19-2013](chapter-05-junior-repecharge/2013/junior-19-2013-C++.pdf)/[DAT](chapter-05-junior-repecharge/2013/junior-19-2013-data.zip)/[ANS](chapter-05-junior-repecharge/2013/junior-19-2013-answer.html);
@@ -55,7 +55,7 @@
 [17-2011](chapter-05-junior-repecharge/2011/junior-17-2011-C++.pdf)/[DAT](chapter-05-junior-repecharge/2011/junior-17-2011-data.zip)/[ANS](chapter-05-junior-repecharge/2011/junior-17-2011-answer.html);
 [16-2010](chapter-05-junior-repecharge/2010/junior-16-2010-C++.pdf)/[DAT](chapter-05-junior-repecharge/2010/junior-16-2010-data.zip)/[ANS](chapter-05-junior-repecharge/2010/junior-16-2010-answer.html);
 [15-2009](chapter-05-junior-repecharge/2009/junior-15-2009-C++.pdf)/[DAT](chapter-05-junior-repecharge/2009/junior-15-2009-data.zip)/[ANS](chapter-05-junior-repecharge/2009/junior-15-2009-answer.html);
-[14-2008](chapter-05-junior-repecharge/2008/junior-14-2008-C++.pdf)/[DAT](chapter-05-junior-repecharge/2008/junior-14-2008-data.zip)/[ANS](chapter-05-junior-repecharge/2008/junior-14-2008-answer.html);
+[14-2008](chapter-05-junior-repecharge/2008/junior-14-2008-C++.pdf)/[DAT](chapter-05-junior-repecharge/2008/junior-14-2008-data.zip)/[ANS](chapter-05-junior-repecharge/2008/junior-14-2008-answer.html); -->
 
 ### 第 06 章 普及组联赛
    
