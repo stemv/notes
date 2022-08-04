@@ -33,12 +33,8 @@
 
 ### 第 04 章 普及组初赛
    
-14 
-[在线答题](chapter-04-junior-preliminary/14-C++2008-10-18.html)
-([PDF](chapter-04-junior-preliminary/pdf/14-NOIP-2008-junior-C++.pdf)) 
-15
-[在线答题](chapter-04-junior-preliminary/14-C++2008-10-18.html)
-([PDF](chapter-04-junior-preliminary/pdf/14-NOIP-2008-junior-C++.pdf)) 
+14 [2008](chapter-04-junior-preliminary/14-C++2008-10-18.html) / ([PDF](chapter-04-junior-preliminary/pdf/14-NOIP-2008-junior-C++.pdf));
+15 [2009](chapter-04-junior-preliminary/15-C++2009-10-17.html) / ([PDF](chapter-04-junior-preliminary/pdf/15-NOIP-2009-junior-C++.pdf)) 
 
 ### 第 05 章 普及组复赛
 
