@@ -1,5 +1,9 @@
 ## STEM Notes
 
+> &copy; 张大为
+> 辽宁师范大学·计算机与信息技术学院
+> 手机：13998465335-微信：aqdvxin-电邮：daweiz@lnnu.edu.cn
+
 ### 第 01 章 学习笔记
 
 [信竞简介](chapter-01-notes/00/1-intro.html);
