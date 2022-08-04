@@ -3,27 +3,34 @@
 ### 第 01 章 学习笔记
 
 [信竞简介](chapter-01-notes/00/1-intro.html);
-[相关资源](a.md);
-[给学弟学妹的一封信](a.md);
-[信竞宣言](a.md);
-[学习方法](a.md);
-[准备编程环境](a.md);
-[什么是程序](a.md);
-[用 Dev 写项目](a.md);
-[算术游戏](a.md);
-[如何去做](a.md);
-[游戏设置](a.md);
-[命令行参数](a.md);
-[显示功能](a.md);
-[实现细节](a.md);
-[排序算法](a.md);
-[排序应用](a.md);
-[数学基础一](a.md);
-[数学基础二](a.md);
-[递推算法](a.md);
-[递归算法](a.md);
-[数学基础三](a.md);
-[大数计算](a.md);
+[相关资源](chapter-01-notes/00/2-resource.html);
+[给学弟学妹的一封信](chapter-01-notes/01/1-tong11.html);
+[信竞宣言](chapter-01-notes/01/2-organ.html);
+[学习方法](chapter-01-notes/02/1-method.html);
+[准备编程环境](chapter-01-notes/02/2-devcpp.html);
+[什么是程序](chapter-01-notes/03/1-program.html);
+[用 Dev 写项目](chapter-01-notes/03/1-project.html);
+
+[算术游戏](chapter-01-notes/04/1-intro.html);
+[如何去做](chapter-01-notes/04/1-intro.html);
+
+[游戏设置](chapter-01-notes/05/1-intro.html);
+[命令行参数](chapter-01-notes/05/1-intro.html);
+
+[显示功能](chapter-01-notes/06/1-intro.html);
+[实现细节](chapter-01-notes/06/1-intro.html);
+
+[排序算法](chapter-01-notes/07/1-intro.html);
+[排序应用](chapter-01-notes/07/1-intro.html);
+
+[数学基础一](chapter-01-notes/08/1-intro.html);
+[数学基础二](chapter-01-notes/08/1-intro.html);
+
+[递推算法](chapter-01-notes/09/1-intro.html);
+[递归算法](chapter-01-notes/09/1-intro.html);
+
+[数学基础三](chapter-01-notes/10/1-intro.html);
+[大数计算](chapter-01-notes/10/1-intro.html);
 
 ### 第 02 章 编程实战
    
