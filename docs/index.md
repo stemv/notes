@@ -1,10 +1,6 @@
-## STEM Notes
+# STEM Notes
 
-> &copy; 张大为
-> 辽宁师范大学·计算机与信息技术学院
-> 手机：13998465335-微信：aqdvxin-电邮：daweiz@lnnu.edu.cn
-
-### 第 01 章 学习笔记
+## 第 01 章 学习笔记
 
 [信竞简介](chapter-01-notes/00/1-intro.html);
 [相关资源](chapter-01-notes/00/2-resource.html);
@@ -28,14 +24,14 @@
 [递归算法](chapter-01-notes/09/2-recursion.html);
 [数学基础三](chapter-01-notes/10/1-math.html);
 
-### 第 02 章 编程实战
+## 第 02 章 编程实战
    
 
-### 第 03 章 章节刷题
+## 第 03 章 章节刷题
    
 1. 
 
-### 第 04 章 普及组初赛
+## 第 04 章 普及组初赛
 
 [23-2017](chapter-04-junior-preliminary/23-C++2017-10-14.html)/[PDF](chapter-04-junior-preliminary/pdf/23-NOIP-2017-junior-C++.pdf);
 [22-2016](chapter-04-junior-preliminary/22-C++2016-10-22.html)/[PDF](chapter-04-junior-preliminary/pdf/22-NOIP-2016-junior-C++.pdf);
@@ -48,7 +44,7 @@
 [15-2009](chapter-04-junior-preliminary/15-C++2009-10-17.html)/[PDF](chapter-04-junior-preliminary/pdf/15-NOIP-2009-junior-C++.pdf);
 [14-2008](chapter-04-junior-preliminary/14-C++2008-10-18.html)/[PDF](chapter-04-junior-preliminary/pdf/14-NOIP-2008-junior-C++.pdf);
 
-### 第 05 章 普及组复赛
+## 第 05 章 普及组复赛
 [25-2019](chapter-05-junior-repecharge/2019/junior-25-2019-C++.pdf)/[DAT](chapter-05-junior-repecharge/2019/junior-25-2019-data.zip)/[ANS](chapter-05-junior-repecharge/2019/junior-25-2019-answer.html);
 [24-2018](chapter-05-junior-repecharge/2018/junior-24-2018-C++.pdf)/[DAT](chapter-05-junior-repecharge/2018/junior-24-2018-data.zip)/[ANS](chapter-05-junior-repecharge/2018/junior-24-2018-answer.html);
 [23-2017](chapter-05-junior-repecharge/2017/junior-23-2017-C++.pdf)/[DAT](chapter-05-junior-repecharge/2017/junior-23-2017-data.zip)/[ANS](chapter-05-junior-repecharge/2017/junior-23-2017-answer.html);
@@ -62,26 +58,26 @@
 [15-2009](chapter-05-junior-repecharge/2009/junior-15-2009-C++.pdf)/[DAT](chapter-05-junior-repecharge/2009/junior-15-2009-data.zip)/[ANS](chapter-05-junior-repecharge/2009/junior-15-2009-answer.html);
 [14-2008](chapter-05-junior-repecharge/2008/junior-14-2008-C++.pdf)/[DAT](chapter-05-junior-repecharge/2008/junior-14-2008-data.zip)/[ANS](chapter-05-junior-repecharge/2008/junior-14-2008-answer.html); -->
 
-### 第 06 章 普及组联赛
+## 第 06 章 普及组联赛
    
 1. 
 
-### 第 07 章 提高组初赛
+## 第 07 章 提高组初赛
    
 1. 
 
-### 第 08 章 提高组复赛
+## 第 08 章 提高组复赛
    
 1.  
 
-### 第 09 章 提高组联赛
+## 第 09 章 提高组联赛
    
 1.  
 
-### 第 10 章  软件工具
+## 第 10 章  软件工具
     
 1.  
 
-### 第 11 章 NOI Online 培训 
+## 第 11 章 NOI Online 培训 
     
 1.  
