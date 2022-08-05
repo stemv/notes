@@ -52,30 +52,40 @@
 [23-2017](chapter-05-junior-repecharge/2017/junior-23-2017-C++.pdf)/[DAT](chapter-05-junior-repecharge/2017/junior-23-2017-data.zip)/[ANS](chapter-05-junior-repecharge/2017/junior-23-2017-answer.html)；
 [22-2016](chapter-05-junior-repecharge/2016/junior-22-2016-C++.pdf)/[DAT](chapter-05-junior-repecharge/2016/junior-22-2016-data.zip)/[ANS](chapter-05-junior-repecharge/2016/junior-22-2016-answer.html)；
 [21-2015](chapter-05-junior-repecharge/2015/junior-21-2015-C++.pdf)/[DAT](chapter-05-junior-repecharge/2015/junior-21-2015-data.zip)/[ANS](chapter-05-junior-repecharge/2015/junior-21-2015-answer.html)；
-
-<!-- 
-
-[20-2014](chapter-05-junior-repecharge/2014/junior-20-2014-C++.pdf)/[DAT](chapter-05-junior-repecharge/2014/junior-20-2014-data.zip)/[ANS](chapter-05-junior-repecharge/2014/junior-20-2014-answer.html);
-[19-2013](chapter-05-junior-repecharge/2013/junior-19-2013-C++.pdf)/[DAT](chapter-05-junior-repecharge/2013/junior-19-2013-data.zip)/[ANS](chapter-05-junior-repecharge/2013/junior-19-2013-answer.html);
-[18-2012](chapter-05-junior-repecharge/2012/junior-18-2012-C++.pdf)/[DAT](chapter-05-junior-repecharge/2012/junior-18-2012-data.zip)/[ANS](chapter-05-junior-repecharge/2012/junior-18-2012-answer.html);
-[17-2011](chapter-05-junior-repecharge/2011/junior-17-2011-C++.pdf)/[DAT](chapter-05-junior-repecharge/2011/junior-17-2011-data.zip)/[ANS](chapter-05-junior-repecharge/2011/junior-17-2011-answer.html);
-[16-2010](chapter-05-junior-repecharge/2010/junior-16-2010-C++.pdf)/[DAT](chapter-05-junior-repecharge/2010/junior-16-2010-data.zip)/[ANS](chapter-05-junior-repecharge/2010/junior-16-2010-answer.html);
-[15-2009](chapter-05-junior-repecharge/2009/junior-15-2009-C++.pdf)/[DAT](chapter-05-junior-repecharge/2009/junior-15-2009-data.zip)/[ANS](chapter-05-junior-repecharge/2009/junior-15-2009-answer.html);
-[14-2008](chapter-05-junior-repecharge/2008/junior-14-2008-C++.pdf)/[DAT](chapter-05-junior-repecharge/2008/junior-14-2008-data.zip)/[ANS](chapter-05-junior-repecharge/2008/junior-14-2008-answer.html);
-
- 
-[13-2007](chapter-05-junior-repecharge/2007/junior-13-2007-C++.pdf)/[DAT](chapter-05-junior-repecharge/2007/junior-13-2007-data.zip)/[ANS](chapter-05-junior-repecharge/2007/junior-13-2007-answer.html)；
-[12-2006](chapter-05-junior-repecharge/2006/junior-12-2006-C++.pdf)/[DAT](chapter-05-junior-repecharge/2006/junior-12-2006-data.zip)/[ANS](chapter-05-junior-repecharge/2006/junior-12-2006-answer.html)；
-[11-2005](chapter-05-junior-repecharge/2005/junior-11-2005-C++.pdf)/[DAT](chapter-05-junior-repecharge/2005/junior-11-2005-data.zip)/[ANS](chapter-05-junior-repecharge/2005/junior-11-2005-answer.html)；
-[10-2004](chapter-05-junior-repecharge/2004/junior-10-2004-C++.pdf)/[DAT](chapter-05-junior-repecharge/2004/junior-10-2004-data.zip)/[ANS](chapter-05-junior-repecharge/2004/junior-10-2004-answer.html)；
-[09-2003](chapter-05-junior-repecharge/2003/junior-09-2003-C++.pdf)/[DAT](chapter-05-junior-repecharge/2003/junior-09-2003-data.zip)/[ANS](chapter-05-junior-repecharge/2003/junior-09-2003-answer.html)；
-[08-2002](chapter-05-junior-repecharge/2002/junior-08-2002-C++.pdf)/[DAT](chapter-05-junior-repecharge/2002/junior-08-2002-data.zip)/[ANS](chapter-05-junior-repecharge/2002/junior-08-2002-answer.html)；
-[07-2001](chapter-05-junior-repecharge/2001/junior-07-2001-C++.pdf)/[DAT](chapter-05-junior-repecharge/2001/junior-07-2001-data.zip)/[ANS](chapter-05-junior-repecharge/2001/junior-07-2001-answer.html)；
-[06-2000](chapter-05-junior-repecharge/2000/junior-06-2000-C++.pdf)/[DAT](chapter-05-junior-repecharge/2000/junior-06-2000-data.zip)/[ANS](chapter-05-junior-repecharge/2000/junior-06-2000-answer.html)；
-[05-1999](chapter-05-junior-repecharge/1999/junior-05-1999-C++.pdf)/[DAT](chapter-05-junior-repecharge/1999/junior-05-1999-data.zip)/[ANS](chapter-05-junior-repecharge/1999/junior-05-1999-answer.html)；
-[04-1998](chapter-05-junior-repecharge/1998/junior-04-1998-C++.pdf)/[DAT](chapter-05-junior-repecharge/1998/junior-04-1998-data.zip)/[ANS](chapter-05-junior-repecharge/1998/junior-04-1998-answer.html)；
--->
-
+[20-2014](chapter-05-junior-repecharge/2014/junior-20-2014-C++.pdf)/[DAT](chapter-05-junior-repecharge/2014/junior-20-2014-data.zip)；
+<!-- /[ANS](chapter-05-junior-repecharge/2014/junior-20-2014-answer.html); -->
+[19-2013](chapter-05-junior-repecharge/2013/junior-19-2013-C++.pdf)/[DAT](chapter-05-junior-repecharge/2013/junior-19-2013-data.zip)；
+<!-- /[ANS](chapter-05-junior-repecharge/2013/junior-19-2013-answer.html); -->
+[18-2012](chapter-05-junior-repecharge/2012/junior-18-2012-C++.pdf)/[DAT](chapter-05-junior-repecharge/2012/junior-18-2012-data.zip)；
+<!-- /[ANS](chapter-05-junior-repecharge/2012/junior-18-2012-answer.html); -->
+[17-2011](chapter-05-junior-repecharge/2011/junior-17-2011-C++.pdf)/[DAT](chapter-05-junior-repecharge/2011/junior-17-2011-data.zip)；
+<!-- /[ANS](chapter-05-junior-repecharge/2011/junior-17-2011-answer.html); -->
+[16-2010](chapter-05-junior-repecharge/2010/junior-16-2010-C++.pdf)/[DAT](chapter-05-junior-repecharge/2010/junior-16-2010-data.zip)
+<!-- /[ANS](chapter-05-junior-repecharge/2010/junior-16-2010-answer.html); -->
+[15-2009](chapter-05-junior-repecharge/2009/junior-15-2009-C++.pdf)/[DAT](chapter-05-junior-repecharge/2009/junior-15-2009-data.zip)；
+<!-- /[ANS](chapter-05-junior-repecharge/2009/junior-15-2009-answer.html); -->
+[14-2008](chapter-05-junior-repecharge/2008/junior-14-2008-C++.pdf)/[DAT](chapter-05-junior-repecharge/2008/junior-14-2008-data.zip)；
+<!-- /[ANS](chapter-05-junior-repecharge/2008/junior-14-2008-answer.html); -->
+[13-2007](chapter-05-junior-repecharge/2007/junior-13-2007-C++.pdf)/[DAT](chapter-05-junior-repecharge/2007/junior-13-2007-data.zip)；
+<!-- /[ANS](chapter-05-junior-repecharge/2007/junior-13-2007-answer.html)； -->
+[12-2006](chapter-05-junior-repecharge/2006/junior-12-2006-C++.pdf)/[DAT](chapter-05-junior-repecharge/2006/junior-12-2006-data.zip)；
+<!-- /[ANS](chapter-05-junior-repecharge/2006/junior-12-2006-answer.html)； -->
+[11-2005](chapter-05-junior-repecharge/2005/junior-11-2005-C++.pdf)/[DAT](chapter-05-junior-repecharge/2005/junior-11-2005-data.zip)；
+<!-- /[ANS](chapter-05-junior-repecharge/2005/junior-11-2005-answer.html)； -->
+[10-2004](chapter-05-junior-repecharge/2004/junior-10-2004-C++.pdf)/[DAT](chapter-05-junior-repecharge/2004/junior-10-2004-data.zip)；
+<!-- /[ANS](chapter-05-junior-repecharge/2004/junior-10-2004-answer.html)； -->
+[09-2003](chapter-05-junior-repecharge/2003/junior-09-2003-C++.pdf)/[DAT](chapter-05-junior-repecharge/2003/junior-09-2003-data.zip)；
+<!-- /[ANS](chapter-05-junior-repecharge/2003/junior-09-2003-answer.html)； -->
+[08-2002](chapter-05-junior-repecharge/2002/junior-08-2002-C++.pdf)/[DAT](chapter-05-junior-repecharge/2002/junior-08-2002-data.zip)；
+<!-- /[ANS](chapter-05-junior-repecharge/2002/junior-08-2002-answer.html)； -->
+[07-2001](chapter-05-junior-repecharge/2001/junior-07-2001-C++.pdf)/[DAT](chapter-05-junior-repecharge/2001/junior-07-2001-data.zip)；
+<!-- /[ANS](chapter-05-junior-repecharge/2001/junior-07-2001-answer.html)； -->
+[06-2000](chapter-05-junior-repecharge/2000/junior-06-2000-C++.pdf)/[DAT](chapter-05-junior-repecharge/2000/junior-06-2000-data.zip)；
+<!-- /[ANS](chapter-05-junior-repecharge/2000/junior-06-2000-answer.html)； -->
+[05-1999](chapter-05-junior-repecharge/1999/junior-05-1999-C++.pdf)/[DAT](chapter-05-junior-repecharge/1999/junior-05-1999-data.zip)；
+<!-- /[ANS](chapter-05-junior-repecharge/1999/junior-05-1999-answer.html)； -->
+[04-1998](chapter-05-junior-repecharge/1998/junior-04-1998-C++.pdf)/[DAT](chapter-05-junior-repecharge/1998/junior-04-1998-data.zip)；
+<!-- /[ANS](chapter-05-junior-repecharge/1998/junior-04-1998-answer.html)； -->
 [03-1997](chapter-05-junior-repecharge/1997/junior-03-1997-C++.pdf)/[DAT](chapter-05-junior-repecharge/1997/junior-03-1997-data.pdf)；
 <!-- /[ANS](chapter-05-junior-repecharge/1997/junior-03-1997-answer.html)； -->
 [02-1996](chapter-05-junior-repecharge/1996/junior-02-1996-C++.pdf)/[DAT](chapter-05-junior-repecharge/1996/junior-02-1996-data.pdf)；
