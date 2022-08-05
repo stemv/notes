@@ -2,27 +2,27 @@
 
 ## 第 01 章 学习笔记
 
-[01-信竞简介](chapter-01-notes/00/1-intro.html),
-[02-相关资源](chapter-01-notes/00/2-resource.html),
-[03-给学弟学妹的一封信](chapter-01-notes/01/1-tong11.html),
-[04-信竞宣言](chapter-01-notes/01/2-organ.html),
-[05-学习方法](chapter-01-notes/02/1-method.html),
-[06-准备编程环境](chapter-01-notes/02/2-devcpp.html),
-[07-什么是程序](chapter-01-notes/03/1-program.html),
-[08-用 Dev 写项目](chapter-01-notes/03/2-project.html),
-[09-算术游戏](chapter-01-notes/04/1-game.html),
-[10-如何去做](chapter-01-notes/04/2-core.html),
-[11-游戏设置](chapter-01-notes/05/1-settings.html),
-[12-命令行参数](chapter-01-notes/05/2-params.html),
-[13-显示功能](chapter-01-notes/06/1-display.html),
-[14-实现细节](chapter-01-notes/06/2-detail.html),
-[15-排序算法](chapter-01-notes/07/1-sort.html),
-[16-排序应用](chapter-01-notes/07/2-practice.html),
-[17-数学基础一](chapter-01-notes/08/1-concept.html),
-[18-数学基础二](chapter-01-notes/08/2-number.html),
-[19-递推算法](chapter-01-notes/09/1-recurrence.html),
-[20-递归算法](chapter-01-notes/09/2-recursion.html),
-[21-数学基础三](chapter-01-notes/10/1-math.html)
+01-[信竞简介](chapter-01-notes/00/1-intro.html),
+02-[相关资源](chapter-01-notes/00/2-resource.html),
+03-[给学弟学妹的一封信](chapter-01-notes/01/1-tong11.html),
+04-[信竞宣言](chapter-01-notes/01/2-organ.html),
+05-[学习方法](chapter-01-notes/02/1-method.html),
+06-[准备编程环境](chapter-01-notes/02/2-devcpp.html),
+07-[什么是程序](chapter-01-notes/03/1-program.html),
+08-[用 Dev 写项目](chapter-01-notes/03/2-project.html),
+09-[算术游戏](chapter-01-notes/04/1-game.html),
+10-[如何去做](chapter-01-notes/04/2-core.html),
+11-[游戏设置](chapter-01-notes/05/1-settings.html),
+12-[命令行参数](chapter-01-notes/05/2-params.html),
+13-[显示功能](chapter-01-notes/06/1-display.html),
+14-[实现细节](chapter-01-notes/06/2-detail.html),
+15-[排序算法](chapter-01-notes/07/1-sort.html),
+16-[排序应用](chapter-01-notes/07/2-practice.html),
+17-[数学基础一](chapter-01-notes/08/1-concept.html),
+18-[数学基础二](chapter-01-notes/08/2-number.html),
+19-[递推算法](chapter-01-notes/09/1-recurrence.html),
+20-[递归算法](chapter-01-notes/09/2-recursion.html),
+21-[数学基础三](chapter-01-notes/10/1-math.html)
 
 ## 第 02 章 编程实战
    
