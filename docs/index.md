@@ -111,14 +111,14 @@
 
 ## 第 10 章  软件工具
 
-[01-Notepad++ 32 位](chapter-10-tool/npp.8.4.4.Installer.exe)
-[02-Notepad++ 64 位](chapter-10-tool/npp.8.4.4.Installer.x64.exe)
-[03-Chrome 32 位](chapter-10-tool/ChromeStandaloneSetup.exe)
-[04-Chrome 64 位](chapter-10-tool/ChromeStandaloneSetup64.exe)
-[05-Dev Cpp 32 位](chapter-10-tool/Dev-Cpp-5.8.0-TDM-GCC-4.8.1-Portable.7z)
-[06-Dev Cpp 64 位](chapter-10-tool/Dev-Cpp-5.11-TDM-GCC-x64-4.9.2-Portable.7z)
-[07-7z 32 位](chapter-10-tool/7z2201.exe)
-[08-7z 64 位](chatper-10-tool/../chapter-10-tool/7z2201-x64.exe)
+[01-Notepad++ 32 位](chapter-10-tool/npp.8.4.4.Installer.exe);
+[02-Notepad++ 64 位](chapter-10-tool/npp.8.4.4.Installer.x64.exe);
+[03-Chrome 32 位](chapter-10-tool/ChromeStandaloneSetup.exe);
+[04-Chrome 64 位](chapter-10-tool/ChromeStandaloneSetup64.exe);
+[05-Dev Cpp 32 位](chapter-10-tool/Dev-Cpp-5.8.0-TDM-GCC-4.8.1-Portable.7z);
+[06-Dev Cpp 64 位](chapter-10-tool/Dev-Cpp-5.11-TDM-GCC-x64-4.9.2-Portable.7z);
+[07-7z 32 位](chapter-10-tool/7z2201.exe);
+[08-7z 64 位](chatper-10-tool/7z2201-x64.exe);
 [09-NOI Linux 2.0 版](https://noiresources.ccf.org.cn/ubuntu-noi-v2.0.iso)
 
 ## 第 11 章 NOI Online 培训 
