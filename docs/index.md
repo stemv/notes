@@ -33,16 +33,22 @@
 
 ## 第 04 章 普及组初赛
 
-23-[2017](chapter-04-junior-preliminary/23-C++2017-10-14.html)/[PDF](chapter-04-junior-preliminary/pdf/23-NOIP-2017-junior-C++.pdf),
-22-[2016](chapter-04-junior-preliminary/22-C++2016-10-22.html)/[PDF](chapter-04-junior-preliminary/pdf/22-NOIP-2016-junior-C++.pdf),
-21-[2015](chapter-04-junior-preliminary/21-C++2015-10-11.html)/[PDF](chapter-04-junior-preliminary/pdf/21-NOIP-2015-junior-C++.pdf),
-20-[2014](chapter-04-junior-preliminary/20-C++2014-10-12.html)/[PDF](chapter-04-junior-preliminary/pdf/20-NOIP-2014-junior-C++.pdf),
-19-[2013](chapter-04-junior-preliminary/19-C++2013-10-13.html)/[PDF](chapter-04-junior-preliminary/pdf/19-NOIP-2013-junior-C++.pdf),
-18-[2012](chapter-04-junior-preliminary/18-C++2012-10-13.html)/[PDF](chapter-04-junior-preliminary/pdf/18-NOIP-2012-junior-C++.pdf),
-17-[2011](chapter-04-junior-preliminary/17-C++2011-10-15.html)/[PDF](chapter-04-junior-preliminary/pdf/17-NOIP-2011-junior-C++.pdf),
-16-[2010](chapter-04-junior-preliminary/16-C++2010-10-22.html)/[PDF](chapter-04-junior-preliminary/pdf/16-NOIP-2010-junior-C++.pdf),
-15-[2009](chapter-04-junior-preliminary/15-C++2009-10-17.html)/[PDF](chapter-04-junior-preliminary/pdf/15-NOIP-2009-junior-C++.pdf),
-14-[2008](chapter-04-junior-preliminary/14-C++2008-10-18.html)/[PDF](chapter-04-junior-preliminary/pdf/14-NOIP-2008-junior-C++.pdf)
+27-2021/[PDF](chapter-04-junior-preliminary/27-NOIP-2021-junior-C++.pdf)/[ANA](chapter-04-junior-preliminary/27-NOIP-2021-junior-C++_ana.pdf),
+26-2020/[PDF](chapter-04-junior-preliminary/26-NOIP-2020-junior-C++.pdf)/[ANA](chapter-04-junior-preliminary/26-NOIP-2020-junior-C++_ana.pdf),
+25-2019/[PDF](chapter-04-junior-preliminary/25-NOIP-2019-junior-C++.pdf)/[ANA](chapter-04-junior-preliminary/25-NOIP-2019-junior-C++_ana.pdf),
+24-2018/[PDF](chapter-04-junior-preliminary/24-NOIP-2018-junior-C++.pdf),
+23-[2017](chapter-04-junior-preliminary/23-C++2017-10-14.html)/[PDF](chapter-04-junior-preliminary/23-NOIP-2017-junior-C++.pdf),
+22-[2016](chapter-04-junior-preliminary/22-C++2016-10-22.html)/[PDF](chapter-04-junior-preliminary/22-NOIP-2016-junior-C++.pdf),
+21-[2015](chapter-04-junior-preliminary/21-C++2015-10-11.html)/[PDF](chapter-04-junior-preliminary/21-NOIP-2015-junior-C++.pdf),
+20-[2014](chapter-04-junior-preliminary/20-C++2014-10-12.html)/[PDF](chapter-04-junior-preliminary/20-NOIP-2014-junior-C++.pdf),
+19-[2013](chapter-04-junior-preliminary/19-C++2013-10-13.html)/[PDF](chapter-04-junior-preliminary/19-NOIP-2013-junior-C++.pdf),
+18-[2012](chapter-04-junior-preliminary/18-C++2012-10-13.html)/[PDF](chapter-04-junior-preliminary/18-NOIP-2012-junior-C++.pdf),
+17-[2011](chapter-04-junior-preliminary/17-C++2011-10-15.html)/[PDF](chapter-04-junior-preliminary/17-NOIP-2011-junior-C++.pdf),
+16-[2010](chapter-04-junior-preliminary/16-C++2010-10-22.html)/[PDF](chapter-04-junior-preliminary/16-NOIP-2010-junior-C++.pdf),
+15-[2009](chapter-04-junior-preliminary/15-C++2009-10-17.html)/[PDF](chapter-04-junior-preliminary/15-NOIP-2009-junior-C++.pdf),
+14-[2008](chapter-04-junior-preliminary/14-C++2008-10-18.html)/[PDF](chapter-04-junior-preliminary/14-NOIP-2008-junior-C++.pdf),
+13-2007/[PDF](chapter-04-junior-preliminary/13-NOIP-2007-junior-C++.pdf),
+12-2006/[PDF](chapter-04-junior-preliminary/12-NOIP-2006-junior-C++.pdf)
 
 ## 第 05 章 普及组复赛
 25-[2019](chapter-05-junior-repecharge/2019/junior-25-2019-C++.pdf)/[DAT](chapter-05-junior-repecharge/2019/junior-25-2019-data.zip),
