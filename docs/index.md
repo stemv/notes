@@ -31,7 +31,7 @@
    
  
 
-## 第 04 章 普及组初赛
+## 第 04 章 普及组初赛 (CSP-J-1)
 
 27-2021/[PDF](chapter-04-junior-preliminary/27-NOIP-2021-junior-C++.pdf)/[ANA](chapter-04-junior-preliminary/27-NOIP-2021-junior-C++_ana.pdf),
 26-2020/[PDF](chapter-04-junior-preliminary/26-NOIP-2020-junior-C++.pdf)/[ANA](chapter-04-junior-preliminary/26-NOIP-2020-junior-C++_ana.pdf),
@@ -50,7 +50,7 @@
 13-2007/[PDF](chapter-04-junior-preliminary/13-NOIP-2007-junior-C++.pdf),
 12-2006/[PDF](chapter-04-junior-preliminary/12-NOIP-2006-junior-C++.pdf)
 
-## 第 05 章 普及组复赛
+## 第 05 章 普及组复赛 (CSP-J-2)
 
 25-[2019](chapter-05-junior-repecharge/2019/junior-25-2019-C++.pdf)/[DAT](chapter-05-junior-repecharge/2019/junior-25-2019-data.zip),
 <!-- /[ANS](chapter-05-junior-repecharge/2019/junior-25-2019-answer.html); -->
@@ -100,11 +100,11 @@
 01-[1995](chapter-05-junior-repecharge/1995/junior-01-1995-C++.pdf)/[DAT](chapter-05-junior-repecharge/1995/junior-01-1995-data.pdf)
 <!-- /[ANS](chapter-05-junior-repecharge/1995/junior-01-1995-answer.html) -->
 
-## 第 06 章 普及组联赛
+## 第 06 章 普及组联赛 (NOIP-J)
    
  
 
-## 第 07 章 提高组初赛
+## 第 07 章 提高组初赛 (CSP-S-1)
    
 27-2021/[PDF](chapter-07-senior-preliminary/27-NOIP-2021-senior-C++.pdf)/[ANA](chapter-07-senior-preliminary/27-NOIP-2021-senior-C++_ana.pdf),
 26-2020/[PDF](chapter-07-senior-preliminary/26-NOIP-2020-senior-C++.pdf)/[ANA](chapter-07-senior-preliminary/26-NOIP-2020-senior-C++_ana.pdf),
@@ -125,7 +125,7 @@
 12-2006/[PDF](chapter-07-senior-preliminary/12-NOIP-2006-senior-C++.pdf)
  -->
 
-## 第 08 章 提高组复赛
+## 第 08 章 提高组复赛 (CSP-S-2)
    
 25-2019/[DAY1](chapter-08-senior-repecharge/2019/senior-25-2019-C++_day1.pdf)/[DAT1](chapter-08-senior-repecharge/2019/senior-25-2019-data1.zip)/[DAY2](chapter-08-senior-repecharge/2019/senior-25-2019-C++_day2.pdf)/[DAT2](chapter-08-senior-repecharge/2019/senior-25-2019-data2.zip),
 24-2018/[DAY1](chapter-08-senior-repecharge/2018/senior-24-2018-C++_day1.pdf)/[DAT1](chapter-08-senior-repecharge/2018/senior-24-2018-data1.zip)/[DAY2](chapter-08-senior-repecharge/2018/senior-24-2018-C++_day2.pdf)/[DAT2](chapter-08-senior-repecharge/2018/senior-24-2018-data2.zip),
@@ -153,7 +153,7 @@
 02-1996/[PDF](chapter-08-senior-repecharge/1996/senior-02-1996-C++.pdf)/[DAT](chapter-08-senior-repecharge/1996/senior-02-1996-data.pdf),
 01-1995/[PDF](chapter-08-senior-repecharge/1995/senior-01-1995-C++.pdf)/[DAT](chapter-08-senior-repecharge/1995/senior-01-1995-data.pdf)
 
-## 第 09 章 提高组联赛
+## 第 09 章 提高组联赛 (NOIP-S)
    
   
 
