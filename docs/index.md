@@ -105,7 +105,24 @@
 
 ## 第 07 章 提高组初赛
    
- 
+27-2021/[PDF](chapter-07-senior-preliminary/27-NOIP-2021-senior-C++.pdf)/[ANA](chapter-07-senior-preliminary/27-NOIP-2021-senior-C++_ana.pdf),
+26-2020/[PDF](chapter-07-senior-preliminary/26-NOIP-2020-senior-C++.pdf)/[ANA](chapter-07-senior-preliminary/26-NOIP-2020-senior-C++_ana.pdf),
+25-2019/[PDF](chapter-07-senior-preliminary/25-NOIP-2019-senior-C++.pdf)/[ANA](chapter-07-senior-preliminary/25-NOIP-2019-senior-C++_ana.pdf),
+24-2018/[PDF](chapter-07-senior-preliminary/24-NOIP-2018-senior-C++.pdf),
+23-[2017](chapter-07-senior-preliminary/23-C++2017-10-14.html)/[PDF](chapter-07-senior-preliminary/23-NOIP-2017-senior-C++.pdf),
+22-[2016](chapter-07-senior-preliminary/22-C++2016-10-22.html)/[PDF](chapter-07-senior-preliminary/22-NOIP-2016-senior-C++.pdf),
+21-[2015](chapter-07-senior-preliminary/21-C++2015-10-11.html)/[PDF](chapter-07-senior-preliminary/21-NOIP-2015-senior-C++.pdf),
+20-[2014](chapter-07-senior-preliminary/20-C++2014-10-12.html)/[PDF](chapter-07-senior-preliminary/20-NOIP-2014-senior-C++.pdf),
+19-[2013](chapter-07-senior-preliminary/19-C++2013-10-14.html)/[PDF](chapter-07-senior-preliminary/19-NOIP-2013-senior-C++.pdf),
+18-[2012](chapter-07-senior-preliminary/18-C++2012-10-14.html)/[PDF](chapter-07-senior-preliminary/18-NOIP-2012-senior-C++.pdf),
+17-[2011](chapter-07-senior-preliminary/17-C++2011-10-14.html)/[PDF](chapter-07-senior-preliminary/17-NOIP-2011-senior-C++.pdf),
+16-[2010](chapter-07-senior-preliminary/16-C++2010-10-14.html)/[PDF](chapter-07-senior-preliminary/16-NOIP-2010-senior-C++.pdf),
+15-[2009](chapter-07-senior-preliminary/15-C++2009-10-14.html)/[PDF](chapter-07-senior-preliminary/15-NOIP-2009-senior-C++.pdf),
+14-[2008](chapter-07-senior-preliminary/14-C++2008-10-14.html)/[PDF](chapter-07-senior-preliminary/14-NOIP-2008-senior-C++.pdf),
+<!-- 
+13-2007/[PDF](chapter-07-senior-preliminary/13-NOIP-2007-senior-C++.pdf),
+12-2006/[PDF](chapter-07-senior-preliminary/12-NOIP-2006-senior-C++.pdf)
+ -->
 
 ## 第 08 章 提高组复赛
    
