@@ -5,8 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>NOIP (22) C++ 2016-10-22</title>
-        <link href="../../assets/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-        <link href="../../assets/me/css/test.css" rel="stylesheet">
+        <link href="../assets/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../assets/me/css/test.css" rel="stylesheet">
     </head>
     <body ng-controller="test-paper as $ctrl" data-ng-init="loadAnswers()">
         <header class="navbar navbar-static-top" id="top">
@@ -1241,10 +1241,10 @@ int main() {
             </div>
         </script>
 
-        <script src="../../assets/jquery/3.3.1/jquery-3.3.1.min.js"></script>
-        <script src="../../assets/angular/1.6.9/angular.min.js"></script>
-        <script src="../../assets/angular-ui-bootstrap/ui-bootstrap-tpls-2.5.0.js"></script>
-        <script src="../../assets/ng-dialog/1.4.0/js/ngDialog.min.js"></script>
+        <script src="../assets/jquery/3.3.1/jquery-3.3.1.min.js"></script>
+        <script src="../assets/angular/1.6.9/angular.min.js"></script>
+        <script src="../assets/angular-ui-bootstrap/ui-bootstrap-tpls-2.5.0.js"></script>
+        <script src="../assets/ng-dialog/1.4.0/js/ngDialog.min.js"></script>
 
         <script type="text/javascript">
             var app = angular.module('testApp', ['ui.bootstrap','ngDialog']);
@@ -1254,7 +1254,7 @@ int main() {
                 $scope.ans = {};
                 $scope.score = {q1:0,q2:0,q3:0,q4:0,qq:0};
                 $scope.loadAnswers = function () {
-                    $http({method: 'GET',url: '../../assets/data/senior-2016-10-22.json'}).then(
+                    $http({method: 'GET',url: '../assets/data/senior-2016-10-22.json'}).then(
                         function successCallback(response) {
                             $scope.ans = response.data;
                             $log.info(response.data);
