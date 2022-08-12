@@ -51,6 +51,7 @@
 12-2006/[PDF](chapter-04-junior-preliminary/12-NOIP-2006-junior-C++.pdf)
 
 ## 第 05 章 普及组复赛
+
 25-[2019](chapter-05-junior-repecharge/2019/junior-25-2019-C++.pdf)/[DAT](chapter-05-junior-repecharge/2019/junior-25-2019-data.zip),
 <!-- /[ANS](chapter-05-junior-repecharge/2019/junior-25-2019-answer.html); -->
 24-[2018](chapter-05-junior-repecharge/2018/junior-24-2018-C++.pdf)/[DAT](chapter-05-junior-repecharge/2018/junior-24-2018-data.zip),
@@ -126,7 +127,53 @@
 
 ## 第 08 章 提高组复赛
    
-  
+25-2019/[DAY1](chapter-08-senior-repecharge/2019/senior-25-2019-C++_day1.pdf)/[DAT1](chapter-08-senior-repecharge/2019/senior-25-2019-data1.zip)/[DAY2](chapter-08-senior-repecharge/2019/senior-25-2019-C++_day2.pdf)/[DAT2](chapter-08-senior-repecharge/2019/senior-25-2019-data2.zip),
+<!-- /[ANS](chapter-08-senior-repecharge/2019/senior-25-2019-answer.html); -->
+24-[2018](chapter-08-senior-repecharge/2018/senior-24-2018-C++.pdf)/[DAT](chapter-08-senior-repecharge/2018/senior-24-2018-data.zip),
+<!-- /[ANS](chapter-08-senior-repecharge/2018/senior-24-2018-answer.html); -->
+23-[2017](chapter-08-senior-repecharge/2017/senior-23-2017-C++.pdf)/[DAT](chapter-08-senior-repecharge/2017/senior-23-2017-data.zip)/[ANS](chapter-08-senior-repecharge/2017/senior-23-2017-answer.html),
+22-[2016](chapter-08-senior-repecharge/2016/senior-22-2016-C++.pdf)/[DAT](chapter-08-senior-repecharge/2016/senior-22-2016-data.zip)/[ANS](chapter-08-senior-repecharge/2016/senior-22-2016-answer.html),
+21-[2015](chapter-08-senior-repecharge/2015/senior-21-2015-C++.pdf)/[DAT](chapter-08-senior-repecharge/2015/senior-21-2015-data.zip)/[ANS](chapter-08-senior-repecharge/2015/senior-21-2015-answer.html),
+20-[2014](chapter-08-senior-repecharge/2014/senior-20-2014-C++.pdf)/[DAT](chapter-08-senior-repecharge/2014/senior-20-2014-data.zip),
+<!-- /[ANS](chapter-08-senior-repecharge/2014/senior-20-2014-answer.html); -->
+19-[2013](chapter-08-senior-repecharge/2013/senior-19-2013-C++.pdf)/[DAT](chapter-08-senior-repecharge/2013/senior-19-2013-data.zip),
+<!-- /[ANS](chapter-08-senior-repecharge/2013/senior-19-2013-answer.html); -->
+18-[2012](chapter-08-senior-repecharge/2012/senior-18-2012-C++.pdf)/[DAT](chapter-08-senior-repecharge/2012/senior-18-2012-data.zip),
+<!-- /[ANS](chapter-08-senior-repecharge/2012/senior-18-2012-answer.html); -->
+17-[2011](chapter-08-senior-repecharge/2011/senior-17-2011-C++.pdf)/[DAT](chapter-08-senior-repecharge/2011/senior-17-2011-data.zip),
+<!-- /[ANS](chapter-08-senior-repecharge/2011/senior-17-2011-answer.html); -->
+16-[2010](chapter-08-senior-repecharge/2010/senior-16-2010-C++.pdf)/[DAT](chapter-08-senior-repecharge/2010/senior-16-2010-data.zip),
+<!-- /[ANS](chapter-08-senior-repecharge/2010/senior-16-2010-answer.html); -->
+15-[2009](chapter-08-senior-repecharge/2009/senior-15-2009-C++.pdf)/[DAT](chapter-08-senior-repecharge/2009/senior-15-2009-data.zip),
+<!-- /[ANS](chapter-08-senior-repecharge/2009/senior-15-2009-answer.html); -->
+14-[2008](chapter-08-senior-repecharge/2008/senior-14-2008-C++.pdf)/[DAT](chapter-08-senior-repecharge/2008/senior-14-2008-data.zip),
+<!-- /[ANS](chapter-08-senior-repecharge/2008/senior-14-2008-answer.html); -->
+13-[2007](chapter-08-senior-repecharge/2007/senior-13-2007-C++.pdf)/[DAT](chapter-08-senior-repecharge/2007/senior-13-2007-data.zip),
+<!-- /[ANS](chapter-08-senior-repecharge/2007/senior-13-2007-answer.html)； -->
+12-[2006](chapter-08-senior-repecharge/2006/senior-12-2006-C++.pdf)/[DAT](chapter-08-senior-repecharge/2006/senior-12-2006-data.zip),
+<!-- /[ANS](chapter-08-senior-repecharge/2006/senior-12-2006-answer.html)； -->
+11-[2005](chapter-08-senior-repecharge/2005/senior-11-2005-C++.pdf)/[DAT](chapter-08-senior-repecharge/2005/senior-11-2005-data.zip),
+<!-- /[ANS](chapter-08-senior-repecharge/2005/senior-11-2005-answer.html)； -->
+10-[2004](chapter-08-senior-repecharge/2004/senior-10-2004-C++.pdf)/[DAT](chapter-08-senior-repecharge/2004/senior-10-2004-data.zip),
+<!-- /[ANS](chapter-08-senior-repecharge/2004/senior-10-2004-answer.html)； -->
+09-[2003](chapter-08-senior-repecharge/2003/senior-09-2003-C++.pdf)/[DAT](chapter-08-senior-repecharge/2003/senior-09-2003-data.zip),
+<!-- /[ANS](chapter-08-senior-repecharge/2003/senior-09-2003-answer.html)； -->
+08-[2002](chapter-08-senior-repecharge/2002/senior-08-2002-C++.pdf)/[DAT](chapter-08-senior-repecharge/2002/senior-08-2002-data.zip),
+<!-- /[ANS](chapter-08-senior-repecharge/2002/senior-08-2002-answer.html)； -->
+07-[2001](chapter-08-senior-repecharge/2001/senior-07-2001-C++.pdf)/[DAT](chapter-08-senior-repecharge/2001/senior-07-2001-data.zip),
+<!-- /[ANS](chapter-08-senior-repecharge/2001/senior-07-2001-answer.html)； -->
+06-[2000](chapter-08-senior-repecharge/2000/senior-06-2000-C++.pdf)/[DAT](chapter-08-senior-repecharge/2000/senior-06-2000-data.zip),
+<!-- /[ANS](chapter-08-senior-repecharge/2000/senior-06-2000-answer.html)； -->
+05-[1999](chapter-08-senior-repecharge/1999/senior-05-1999-C++.pdf)/[DAT](chapter-08-senior-repecharge/1999/senior-05-1999-data.zip),
+<!-- /[ANS](chapter-08-senior-repecharge/1999/senior-05-1999-answer.html)； -->
+04-[1998](chapter-08-senior-repecharge/1998/senior-04-1998-C++.pdf)/[DAT](chapter-08-senior-repecharge/1998/senior-04-1998-data.zip),
+<!-- /[ANS](chapter-08-senior-repecharge/1998/senior-04-1998-answer.html)； -->
+03-[1997](chapter-08-senior-repecharge/1997/senior-03-1997-C++.pdf)/[DAT](chapter-08-senior-repecharge/1997/senior-03-1997-data.pdf),
+<!-- /[ANS](chapter-08-senior-repecharge/1997/senior-03-1997-answer.html)； -->
+02-[1996](chapter-08-senior-repecharge/1996/senior-02-1996-C++.pdf)/[DAT](chapter-08-senior-repecharge/1996/senior-02-1996-data.pdf),
+<!-- /[ANS](chapter-08-senior-repecharge/1996/senior-02-1996-answer.html)； -->
+01-[1995](chapter-08-senior-repecharge/1995/senior-01-1995-C++.pdf)/[DAT](chapter-08-senior-repecharge/1995/senior-01-1995-data.pdf)
+<!-- /[ANS](chapter-08-senior-repecharge/1995/senior-01-1995-answer.html) -->
 
 ## 第 09 章 提高组联赛
    
