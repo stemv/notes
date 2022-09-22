@@ -1,0 +1,46 @@
+{
+	"questa":[
+		{"id":1,"answer":"","key":"D","score":1.5},
+		{"id":2,"answer":"","key":"A","score":1.5},
+		{"id":3,"answer":"","key":"B","score":1.5},
+		{"id":4,"answer":"","key":"B","score":1.5},
+		{"id":5,"answer":"","key":"B","score":1.5},
+		{"id":6,"answer":"","key":"B","score":1.5},
+		{"id":7,"answer":"","key":"B","score":1.5},
+		{"id":8,"answer":"","key":"B","score":1.5},
+		{"id":9,"answer":"","key":"B","score":1.5},
+		{"id":10,"answer":"","key":"D","score":1.5},
+		{"id":11,"answer":"","key":"B","score":1.5},
+		{"id":12,"answer":"","key":"A","score":1.5},
+		{"id":13,"answer":"","key":"C","score":1.5},
+		{"id":14,"answer":"","key":"C","score":1.5},
+		{"id":15,"answer":"","key":"A","score":1.5},
+		{"id":16,"answer":"","key":"ABC","score":1.5},
+		{"id":17,"answer":"","key":"A","score":1.5},
+		{"id":18,"answer":"","key":"AB","score":1.5},
+		{"id":19,"answer":"","key":"A","score":1.5},
+		{"id":20,"answer":"","key":"ABD","score":1.5}
+	],
+	"questb":[
+		{"id":1,"answer":"","key":"55","score":5},
+		{"id":2,"answer":"","key":"3","score":5}
+	],
+	"questc":[
+		{"id":1,"answer":"","key":"6,5,4,3,2,1,","score":8},
+		{"id":2,"answer":"","key":"YES,NO,YES,","score":8},
+		{"id":3,"answer":"","key":"5","score":8},
+		{"id":4,"answer":"","key":"2 5","score":8}
+	],
+	"questd":[
+		{"id":1,"answer":"","key":"i<=j","score":2},
+		{"id":2,"answer":"","key":"next[rank[i]]=rank[i+1]","score":3},
+		{"id":3,"answer":"","key":"higher=height[next[i]]-height[i]","score":3},
+		{"id":4,"answer":"","key":"shorter<higher","score":3},
+		{"id":5,"answer":"","key":"previous[next[i]]=previous[i]","score":3},
+		{"id":6,"answer":"","key":"dist[1]=0","score":2},
+		{"id":7,"answer":"","key":"dist[x]+weight[j]<dist[point[j]]","score":3},
+		{"id":8,"answer":"","key":"visit[x]=0","score":3},
+		{"id":9,"answer":"","key":"dist[x]+weight[j]==dist[point[j]]","score":3},
+		{"id":10,"answer":"","key":"visit[point[j]]=1","score":3}
+	]
+}

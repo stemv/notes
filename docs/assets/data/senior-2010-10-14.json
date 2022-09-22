@@ -1,0 +1,48 @@
+{
+	"questa":[
+		{"id":1,"answer":"","key":"C","score":1.5},
+		{"id":2,"answer":"","key":"A","score":1.5},
+		{"id":3,"answer":"","key":"A","score":1.5},
+		{"id":4,"answer":"","key":"D","score":1.5},
+		{"id":5,"answer":"","key":"B","score":1.5},
+		{"id":6,"answer":"","key":"D","score":1.5},
+		{"id":7,"answer":"","key":"C","score":1.5},
+		{"id":8,"answer":"","key":"B","score":1.5},
+		{"id":9,"answer":"","key":"C","score":1.5},
+		{"id":10,"answer":"","key":"B","score":1.5},
+		{"id":11,"answer":"","key":"ACD","score":1.5},
+		{"id":12,"answer":"","key":"AD","score":1.5},
+		{"id":13,"answer":"","key":"ABD","score":1.5},
+		{"id":14,"answer":"","key":"AC","score":1.5},
+		{"id":15,"answer":"","key":"B","score":1.5},
+		{"id":16,"answer":"","key":"B","score":1.5},
+		{"id":17,"answer":"","key":"B","score":1.5},
+		{"id":18,"answer":"","key":"D","score":1.5},
+		{"id":19,"answer":"","key":"BCD","score":1.5},
+		{"id":20,"answer":"","key":"ABC","score":1.5}
+	],
+	"questb":[
+		{"id":1,"answer":"","key":"yyxy xx yyxy xyx xx xyx","score":5},
+		{"id":2,"answer":"","key":"12","score":5},
+		{"id":3,"answer":"","key":"18","score":5}
+	],
+	"questc":[
+		{"id":1,"answer":"","key":"16","score":7},
+		{"id":2,"answer":"","key":"1 2 3 5 6 7 9 10 14","score":7},
+		{"id":3,"answer":"","key":"4","score":7},
+		{"id":4,"answer":"","key":"1 6 9 5 4 8 3 2 7","score":7}
+	],
+	"questd":[
+		{"id":1,"answer":"","key":"num<=2;num<3;num=2）","score":2},
+		{"id":2,"answer":"","key":"go(LEFT_TO_RIGHT)","score":2.5},
+		{"id":3,"answer":"","key":"pos[i]==LEFT;LEFT=pos[i]）","score":2.5},
+		{"id":4,"answer":"","key":"hour[i]+go(RIGHT_TO_LEFT);go(RIGHT_TO_LEFT) +hour[i]）","score":2.5},
+		{"id":5,"answer":"","key":"pos[i]=LEFT","score":2.5},
+		{"id":6,"answer":"","key":"opt[k]","score":2.5},
+		{"id":7,"answer":"","key":"home[r]=k","score":2.5},
+		{"id":8,"answer":"","key":"j=i+i;j=2*i;j=i*2","score":2.5},
+		{"id":9,"answer":"","key":"swap(i,j);swap(j,i)","score":2.5},
+		{"id":10,"answer":"","key":"value[i]+heap[1];heap[1]+value[i]","score":2.5},
+        {"id":11,"answer":"","key":"i-m","score":2.5}
+	]
+}

@@ -1,0 +1,46 @@
+{
+	"questa":[
+		{"id":1,"answer":"","key":"D","score":1.5},
+		{"id":2,"answer":"","key":"B","score":1.5},
+		{"id":3,"answer":"","key":"B","score":1.5},
+		{"id":4,"answer":"","key":"C","score":1.5},
+		{"id":5,"answer":"","key":"B","score":1.5},
+		{"id":6,"answer":"","key":"B","score":1.5},
+		{"id":7,"answer":"","key":"C","score":1.5},
+		{"id":8,"answer":"","key":"A","score":1.5},
+		{"id":9,"answer":"","key":"D","score":1.5},
+		{"id":10,"answer":"","key":"D","score":1.5},
+		{"id":11,"answer":"","key":"C","score":1.5},
+		{"id":12,"answer":"","key":"D","score":1.5},
+		{"id":13,"answer":"","key":"C","score":1.5},
+		{"id":14,"answer":"","key":"B","score":1.5},
+		{"id":15,"answer":"","key":"C","score":1.5},
+		{"id":16,"answer":"","key":"B","score":1.5},
+		{"id":17,"answer":"","key":"B","score":1.5},
+		{"id":18,"answer":"","key":"A","score":1.5},
+		{"id":19,"answer":"","key":"C","score":1.5},
+		{"id":20,"answer":"","key":"B","score":1.5}
+	],
+	"questb":[
+		{"id":1,"answer":"","key":"4次 第一步：分成3组：27，27，26，将前两组放在天平上","score":5},
+		{"id":2,"answer":"","key":"有获胜策略，第一次在第5堆中取32颗石子","score":5}
+	],
+	"questc":[
+		{"id":1,"answer":"","key":"10,10","score":8},
+		{"id":2,"answer":"","key":"6  28  496  8128  33550336","score":8},
+		{"id":3,"answer":"","key":"5","score":8},
+		{"id":4,"answer":"","key":"6 2 5 4 3 7 9 9 7 3 4 5 2 6","score":8}
+	],
+	"questd":[
+		{"id":1,"answer":"","key":"k=n","score":2.5},
+		{"id":2,"answer":"","key":"count%5=0","score":2.5},
+		{"id":3,"answer":"","key":"perm(k+1)","score":2.5},
+		{"id":4,"answer":"","key":"a[k]:=a[j]:a[j]:=t","score":2.5},
+		{"id":5,"answer":"","key":"perm(1)","score":3},
+		{"id":6,"answer":"","key":"break","score":3},
+		{"id":7,"answer":"","key":"t%50=0","score":3},
+		{"id":8,"answer":"","key":"a-p*b","score":3},
+		{"id":9,"answer":"","key":"c*10+1","score":3},
+		{"id":10,"answer":"","key":"n","score":3}
+	]
+}

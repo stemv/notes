@@ -1,0 +1,46 @@
+{
+	"questa":[
+		{"id":1,"answer":"","key":"B","score":1.5},
+		{"id":2,"answer":"","key":"D","score":1.5},
+		{"id":3,"answer":"","key":"D","score":1.5},
+		{"id":4,"answer":"","key":"B","score":1.5},
+		{"id":5,"answer":"","key":"C","score":1.5},
+		{"id":6,"answer":"","key":"C","score":1.5},
+		{"id":7,"answer":"","key":"B","score":1.5},
+		{"id":8,"answer":"","key":"B","score":1.5},
+		{"id":9,"answer":"","key":"D","score":1.5},
+		{"id":10,"answer":"","key":"A","score":1.5},
+		{"id":11,"answer":"","key":"D","score":1.5},
+		{"id":12,"answer":"","key":"C","score":1.5},
+		{"id":13,"answer":"","key":"C","score":1.5},
+		{"id":14,"answer":"","key":"B","score":1.5},
+		{"id":15,"answer":"","key":"C","score":1.5},
+		{"id":16,"answer":"","key":"AB","score":1.5},
+		{"id":17,"answer":"","key":"BCD","score":1.5},
+		{"id":18,"answer":"","key":"ABCDE","score":1.5},
+		{"id":19,"answer":"","key":"AC","score":1.5},
+		{"id":20,"answer":"","key":"BD","score":1.5}
+	],
+	"questb":[
+		{"id":1,"answer":"","key":"102","score":5},
+		{"id":2,"answer":"","key":"15","score":5}
+	],
+	"questc":[
+		{"id":1,"answer":"","key":"8","score":8},
+		{"id":2,"answer":"","key":"20","score":8},
+		{"id":3,"answer":"","key":"2 5 6 3 4 7 1","score":8},
+		{"id":4,"answer":"","key":"3 6 9 1 5 10 4 11 8 27","score":8}
+	],
+	"questd":[
+		{"id":1,"answer":"","key":"n","score":2},
+		{"id":2,"answer":"","key":"0","score":3},
+		{"id":3,"answer":"","key":"stack2[top2]= stack2[top1]","score":3},
+		{"id":4,"answer":"","key":"stack2[top1]= stack2[top2]","score":3},
+		{"id":5,"answer":"","key":"top1-1s","score":3},
+		{"id":6,"answer":"","key":"[1][1]","score":2},
+		{"id":7,"answer":"","key":"rowsum[i][0]=0","score":3},
+		{"id":8,"answer":"","key":"rowsum[i][j-1]+matrix[i][j]","score":3},
+		{"id":9,"answer":"","key":"area=0","score":3},
+		{"id":10,"answer":"","key":"rowsum[i][last]-rowsum[i][first-1]","score":3}
+	]
+}

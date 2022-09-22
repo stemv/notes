@@ -1,0 +1,48 @@
+{
+	"questa":[
+		{"id":1,"answer":"","key":"B","score":1.5},
+		{"id":2,"answer":"","key":"B","score":1.5},
+		{"id":3,"answer":"","key":"A","score":1.5},
+		{"id":4,"answer":"","key":"D","score":1.5},
+		{"id":5,"answer":"","key":"B","score":1.5},
+		{"id":6,"answer":"","key":"A","score":1.5},
+		{"id":7,"answer":"","key":"C","score":1.5},
+		{"id":8,"answer":"","key":"D","score":1.5},
+		{"id":9,"answer":"","key":"B","score":1.5},
+		{"id":10,"answer":"","key":"A","score":1.5},
+		{"id":11,"answer":"","key":"CD","score":1.5},
+		{"id":12,"answer":"","key":"ABCD","score":1.5},
+		{"id":13,"answer":"","key":"AB","score":1.5},
+		{"id":14,"answer":"","key":"BC","score":1.5},
+		{"id":15,"answer":"","key":"BC","score":1.5},
+		{"id":16,"answer":"","key":"ABD","score":1.5},
+		{"id":17,"answer":"","key":"CD","score":1.5},
+		{"id":18,"answer":"","key":"A","score":1.5},
+		{"id":19,"answer":"","key":"BCD","score":1.5},
+		{"id":20,"answer":"","key":"ABC","score":1.5}
+	],
+	"questb":[
+		{"id":1,"answer":"","key":"9","score":5},
+		{"id":2,"answer":"","key":"4","score":5}
+	],
+	"questc":[
+		{"id":1,"answer":"","key":"3","score":8},
+		{"id":2,"answer":"","key":"1 2 5 13 34","score":8},
+		{"id":3,"answer":"","key":"150/","score":8},
+		{"id":4,"answer":"","key":"57344","score":8}
+	],
+	"questd":[
+		{"id":1,"answer":"","key":"ans.num[i+j-1]","score":2},
+		{"id":2,"answer":"","key":"ans.num[i]=ans.num[i]mod10","score":2},
+		{"id":3,"answer":"","key":"a.num[i]+b.num[i]","score":2},
+		{"id":4,"answer":"","key":"a.num[i]+b.num[i]","score":2},
+		{"id":5,"answer":"","key":"ans.len++;ans.len = ans.len + 1","score":2},
+        {"id":6,"answer":"","key":"a.len<b.len","score":2},
+		{"id":7,"answer":"","key":"'0';48","score":2},
+		{"id":8,"answer":"","key":"times(middle,middle),target","score":2},
+		{"id":9,"answer":"","key":"num++;num=num+1)","score":3},
+        {"id":10,"answer":"","key":"j=i","score":3},
+        {"id":11,"answer":"","key":"solve(left,j-1,deep+1)","score":3},
+        {"id":12,"answer":"","key":"solve(j+1,right,deep+1)","score":3}
+	]
+}

@@ -197,3 +197,12 @@
 24-[贾志勇-倍增法及其应用](https://www.noi.cn/pxsp/2020-10-06/717313.shtml),
 25-[钟诚-记忆化搜索](https://www.noi.cn/pxsp/2020-10-13/717314.shtml),
 26-[宋新波-简单数论](https://www.noi.cn/pxsp/2020-10-20/717315.shtml)
+
+## 第 12 章 信竞机试环境 ubuntu-noi-2.0 虚拟机部署  
+
+01-[安装 VMware Workstation Pro](chapter-12-ubuntu-noi/1-vmware-setup.html),
+02-[创建虚拟计算机](chapter-12-ubuntu-noi/2-virtual-machine.html),
+03-[安装 ubuntu-noi-v2.0 操作系统](chapter-12-ubuntu-noi/3-ubuntu-noi.html),
+04-[链接虚拟机网络](chapter-12-ubuntu-noi/4-connect-network.html),
+05-[安装 VMware Tools](chapter-12-ubuntu-noi/5-vmware-tools.html),
+06-[Code::Blocks 编程](chapter-12-ubuntu-noi/6-code-blocks.html),
