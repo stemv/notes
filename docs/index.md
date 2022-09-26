@@ -22,7 +22,10 @@
 18-[数学基础二](chapter-01-notes/08/2-number.html),
 19-[递推算法](chapter-01-notes/09/1-recurrence.html),
 20-[递归算法](chapter-01-notes/09/2-recursion.html),
-21-[数学基础三](chapter-01-notes/10/1-math.html)
+21-[数学基础三](chapter-01-notes/10/1-math.html),
+22-[Arbiter 使用说明](chapter-01-notes/11/1-arbiter.html),
+23-[Guide 解题过程](chapter-01-notes/11/2-guide-solve.html),
+24-[Guide 调试过程](chapter-01-notes/11/3-guide-debug.html),
 
 ## 第 02 章 编程实战
    
