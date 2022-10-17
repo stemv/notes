@@ -28,8 +28,12 @@
 24-[Guide 调试过程](chapter-01-notes/11/3-guide-debug.html),
 
 ## 第 02 章 编程实战
-   
 
+01-[常用ASCII](chapter-02-coding/00/ascii.html),
+02-[常用知识点](chapter-02-coding/00/common-sense.html),
+03-[输入与输出](chapter-02-coding/00/input-output.html),
+04-[字符串](chapter-02-coding/00/string.html),
+   
 ## 第 03 章 章节刷题
    
  

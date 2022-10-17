@@ -1,0 +1,2643 @@
+<!DOCTYPE html><html><head>
+      <title>ascii</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:///g:\workshop\repos\vscode\shd101wyy.markdown-preview-enhanced-0.6.3\node_modules\@shd101wyy\mume\dependencies\katex\katex.min.css">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <style>
+      /**
+ * prism.js Github theme based on GitHub's theme.
+ * @author Sam Clarke
+ */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #333;
+  background: none;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.4;
+
+  -moz-tab-size: 8;
+  -o-tab-size: 8;
+  tab-size: 8;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: .8em;
+  overflow: auto;
+  /* border: 1px solid #ddd; */
+  border-radius: 3px;
+  /* background: #fff; */
+  background: #f5f5f5;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: .1em;
+  border-radius: .3em;
+  white-space: normal;
+  background: #f5f5f5;
+}
+
+.token.comment,
+.token.blockquote {
+  color: #969896;
+}
+
+.token.cdata {
+  color: #183691;
+}
+
+.token.doctype,
+.token.punctuation,
+.token.variable,
+.token.macro.property {
+  color: #333;
+}
+
+.token.operator,
+.token.important,
+.token.keyword,
+.token.rule,
+.token.builtin {
+  color: #a71d5d;
+}
+
+.token.string,
+.token.url,
+.token.regex,
+.token.attr-value {
+  color: #183691;
+}
+
+.token.property,
+.token.number,
+.token.boolean,
+.token.entity,
+.token.atrule,
+.token.constant,
+.token.symbol,
+.token.command,
+.token.code {
+  color: #0086b3;
+}
+
+.token.tag,
+.token.selector,
+.token.prolog {
+  color: #63a35c;
+}
+
+.token.function,
+.token.namespace,
+.token.pseudo-element,
+.token.class,
+.token.class-name,
+.token.pseudo-class,
+.token.id,
+.token.url-reference .token.variable,
+.token.attr-name {
+  color: #795da3;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+.token.title,
+.token.title .token.punctuation {
+  font-weight: bold;
+  color: #1d3e81;
+}
+
+.token.list {
+  color: #ed6a43;
+}
+
+.token.inserted {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.token.deleted {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+
+/* JSON */
+.language-json .token.property {
+  color: #183691;
+}
+
+.language-markup .token.tag .token.punctuation {
+  color: #333;
+}
+
+/* CSS */
+code.language-css,
+.language-css .token.function {
+  color: #0086b3;
+}
+
+/* YAML */
+.language-yaml .token.atrule {
+  color: #63a35c;
+}
+
+code.language-yaml {
+  color: #183691;
+}
+
+/* Ruby */
+.language-ruby .token.function {
+  color: #333;
+}
+
+/* Markdown */
+.language-markdown .token.url {
+  color: #795da3;
+}
+
+/* Makefile */
+.language-makefile .token.symbol {
+  color: #795da3;
+}
+
+.language-makefile .token.variable {
+  color: #183691;
+}
+
+.language-makefile .token.builtin {
+  color: #0086b3;
+}
+
+/* Bash */
+.language-bash .token.keyword {
+  color: #0086b3;
+}
+
+/* highlight */
+pre[data-line] {
+  position: relative;
+  padding: 1em 0 1em 3em;
+}
+pre[data-line] .line-highlight-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  display: block;
+  width: 100%;
+}
+
+pre[data-line] .line-highlight {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: inherit 0;
+  margin-top: 1em;
+  background: hsla(24, 20%, 50%,.08);
+  background: linear-gradient(to right, hsla(24, 20%, 50%,.1) 70%, hsla(24, 20%, 50%,0));
+  pointer-events: none;
+  line-height: inherit;
+  white-space: pre;
+}
+
+pre[data-line] .line-highlight:before, 
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-start);
+  position: absolute;
+  top: .4em;
+  left: .6em;
+  min-width: 1em;
+  padding: 0 .5em;
+  background-color: hsla(24, 20%, 50%,.4);
+  color: hsl(24, 20%, 95%);
+  font: bold 65%/1.5 sans-serif;
+  text-align: center;
+  vertical-align: .3em;
+  border-radius: 999px;
+  text-shadow: none;
+  box-shadow: 0 1px white;
+}
+
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-end);
+  top: auto;
+  bottom: .4em;
+}html body{font-family:"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ul,html body>ol{margin-bottom:16px}html body ul,html body ol{padding-left:2em}html body ul.no-list,html body ol.no-list{padding:0;list-style-type:none}html body ul ul,html body ul ol,html body ol ol,html body ol ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:bold;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:bold}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em !important;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::before,html body code::after{letter-spacing:-0.2em;content:"\00a0"}html body pre>code{padding:0;margin:0;font-size:.85em !important;word-break:normal;white-space:pre;background:transparent;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;font-size:.85em !important;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:before,html body pre tt:before,html body pre code:after,html body pre tt:after{content:normal}html body p,html body blockquote,html body ul,html body ol,html body dl,html body pre{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body pre,html body code{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview .pagebreak,.markdown-preview .newpage{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center !important}.markdown-preview:not([for="preview"]) .code-chunk .btn-group{display:none}.markdown-preview:not([for="preview"]) .code-chunk .status{display:none}.markdown-preview:not([for="preview"]) .code-chunk .output-div{margin-bottom:16px}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0}@media screen and (min-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{font-size:14px !important;padding:1em}}@media print{html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,0.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{padding:0 1.6em;margin-top:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc li{margin-bottom:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{list-style-type:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% -  300px);padding:2em calc(50% - 457px -  150px);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+    </head>
+    <body for="html-export">
+      <div class="mume markdown-preview  ">
+      <h2 class="mume-header" id="ascii-%E7%A0%81">ASCII &#x7801;</h2>
+
+<h3 class="mume-header" id="%E5%B8%B8%E7%94%A8ascii">&#x5E38;&#x7528;ASCII</h3>
+
+<ol>
+<li><code>\n</code> ,10     ,0x0a</li>
+<li><code>&apos; &apos;</code>,32     ,0x20</li>
+<li><code>A~Z</code>,65~90 ,0x41~0x5A</li>
+<li><code>a~z</code>,97~122,0x61~0x7A</li>
+<li><code>0~9</code>,48~57 ,0x30~0x39</li>
+</ol>
+<h3 class="mume-header" id="ascii%E7%A0%81%E8%A1%A8%E6%8E%A7%E5%88%B6%E5%AD%97%E7%AC%A6">ASCII&#x7801;&#x8868;&#xFF08;&#x63A7;&#x5236;&#x5B57;&#x7B26;&#xFF09;</h3>
+
+<table>
+<thead>
+<tr>
+<th>&#x5341;&#x8FDB;&#x5236; DEC</th>
+<th>&#x516B;&#x8FDB;&#x5236; OCT</th>
+<th>&#x5341;&#x516D;&#x8FDB;&#x5236; HEX</th>
+<th>&#x4E8C;&#x8FDB;&#x5236; BIN</th>
+<th>&#x7B26;&#x53F7; Symbol</th>
+<th>HTML &#x5B9E;&#x4F53;&#x7F16;&#x7801;</th>
+<th>&#x4E2D;&#x6587;&#x89E3;&#x91CA; Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>000</td>
+<td>00</td>
+<td>00000000</td>
+<td>NUL</td>
+<td><code>&amp;#000;</code></td>
+<td>&#x7A7A;&#x5B57;&#x7B26;</td>
+</tr>
+<tr>
+<td>1</td>
+<td>001</td>
+<td>01</td>
+<td>00000001</td>
+<td>SOH</td>
+<td><code>&amp;#001;</code></td>
+<td>&#x6807;&#x9898;&#x5F00;&#x59CB;</td>
+</tr>
+<tr>
+<td>2</td>
+<td>002</td>
+<td>02</td>
+<td>00000010</td>
+<td>STX</td>
+<td><code>&amp;#002;</code></td>
+<td>&#x6B63;&#x6587;&#x5F00;&#x59CB;</td>
+</tr>
+<tr>
+<td>3</td>
+<td>003</td>
+<td>03</td>
+<td>00000011</td>
+<td>ETX</td>
+<td><code>&amp;#003;</code></td>
+<td>&#x6B63;&#x6587;&#x7ED3;&#x675F;</td>
+</tr>
+<tr>
+<td>4</td>
+<td>004</td>
+<td>04</td>
+<td>00000100</td>
+<td>EOT</td>
+<td><code>&amp;#004;</code></td>
+<td>&#x4F20;&#x8F93;&#x7ED3;&#x675F;</td>
+</tr>
+<tr>
+<td>5</td>
+<td>005</td>
+<td>05</td>
+<td>00000101</td>
+<td>ENQ</td>
+<td><code>&amp;#005;</code></td>
+<td>&#x8BE2;&#x95EE;</td>
+</tr>
+<tr>
+<td>6</td>
+<td>006</td>
+<td>06</td>
+<td>00000110</td>
+<td>ACK</td>
+<td><code>&amp;#006;</code></td>
+<td>&#x6536;&#x5230;&#x901A;&#x77E5;</td>
+</tr>
+<tr>
+<td>7</td>
+<td>007</td>
+<td>07</td>
+<td>00000111</td>
+<td>BEL</td>
+<td><code>&amp;#007;</code></td>
+<td>&#x94C3;</td>
+</tr>
+<tr>
+<td>8</td>
+<td>010</td>
+<td>08</td>
+<td>00001000</td>
+<td>BS</td>
+<td><code>&amp;#008;</code></td>
+<td>&#x9000;&#x683C;</td>
+</tr>
+<tr>
+<td>9</td>
+<td>011</td>
+<td>09</td>
+<td>00001001</td>
+<td>HT</td>
+<td><code>&amp;#009;</code></td>
+<td>&#x6C34;&#x5E73;&#x5236;&#x8868;&#x7B26;</td>
+</tr>
+<tr>
+<td>10</td>
+<td>012</td>
+<td>0A</td>
+<td>00001010</td>
+<td>LF</td>
+<td><code>&amp;#010;</code></td>
+<td>&#x6362;&#x884C;&#x952E;</td>
+</tr>
+<tr>
+<td>11</td>
+<td>013</td>
+<td>0B</td>
+<td>00001011</td>
+<td>VT</td>
+<td><code>&amp;#011;</code></td>
+<td>&#x5782;&#x76F4;&#x5236;&#x8868;&#x7B26;</td>
+</tr>
+<tr>
+<td>12</td>
+<td>014</td>
+<td>0C</td>
+<td>00001100</td>
+<td>FF</td>
+<td><code>&amp;#012;</code></td>
+<td>&#x6362;&#x9875;&#x952E;</td>
+</tr>
+<tr>
+<td>13</td>
+<td>015</td>
+<td>0D</td>
+<td>00001101</td>
+<td>CR</td>
+<td><code>&amp;#013;</code></td>
+<td>&#x56DE;&#x8F66;&#x952E;</td>
+</tr>
+<tr>
+<td>14</td>
+<td>016</td>
+<td>0E</td>
+<td>00001110</td>
+<td>SO</td>
+<td><code>&amp;#014;</code></td>
+<td>&#x79FB;&#x51FA;</td>
+</tr>
+<tr>
+<td>15</td>
+<td>017</td>
+<td>0F</td>
+<td>00001111</td>
+<td>SI</td>
+<td><code>&amp;#015;</code></td>
+<td>&#x79FB;&#x5165;</td>
+</tr>
+<tr>
+<td>16</td>
+<td>020</td>
+<td>10</td>
+<td>00010000</td>
+<td>DLE</td>
+<td><code>&amp;#016;</code></td>
+<td>&#x6570;&#x636E;&#x94FE;&#x8DEF;&#x8F6C;&#x4E49;</td>
+</tr>
+<tr>
+<td>17</td>
+<td>021</td>
+<td>11</td>
+<td>00010001</td>
+<td>DC1</td>
+<td><code>&amp;#017;</code></td>
+<td>&#x8BBE;&#x5907;&#x63A7;&#x5236; 1</td>
+</tr>
+<tr>
+<td>18</td>
+<td>022</td>
+<td>12</td>
+<td>00010010</td>
+<td>DC2</td>
+<td><code>&amp;#018;</code></td>
+<td>&#x8BBE;&#x5907;&#x63A7;&#x5236; 2</td>
+</tr>
+<tr>
+<td>19</td>
+<td>023</td>
+<td>13</td>
+<td>00010011</td>
+<td>DC3</td>
+<td><code>&amp;#019;</code></td>
+<td>&#x8BBE;&#x5907;&#x63A7;&#x5236; 3</td>
+</tr>
+<tr>
+<td>20</td>
+<td>024</td>
+<td>14</td>
+<td>00010100</td>
+<td>DC4</td>
+<td><code>&amp;#020;</code></td>
+<td>&#x8BBE;&#x5907;&#x63A7;&#x5236; 4</td>
+</tr>
+<tr>
+<td>21</td>
+<td>025</td>
+<td>15</td>
+<td>00010101</td>
+<td>NAK</td>
+<td><code>&amp;#021;</code></td>
+<td>&#x62D2;&#x7EDD;&#x63A5;&#x6536;</td>
+</tr>
+<tr>
+<td>22</td>
+<td>026</td>
+<td>16</td>
+<td>00010110</td>
+<td>SYN</td>
+<td><code>&amp;#022;</code></td>
+<td>&#x540C;&#x6B65;&#x7A7A;&#x95F2;</td>
+</tr>
+<tr>
+<td>23</td>
+<td>027</td>
+<td>17</td>
+<td>00010111</td>
+<td>ETB</td>
+<td><code>&amp;#023;</code></td>
+<td>&#x4F20;&#x8F93;&#x5757;&#x7ED3;&#x675F;</td>
+</tr>
+<tr>
+<td>24</td>
+<td>030</td>
+<td>18</td>
+<td>00011000</td>
+<td>CAN</td>
+<td><code>&amp;#024;</code></td>
+<td>&#x53D6;&#x6D88;</td>
+</tr>
+<tr>
+<td>25</td>
+<td>031</td>
+<td>19</td>
+<td>00011001</td>
+<td>EM</td>
+<td><code>&amp;#025;</code></td>
+<td>&#x4ECB;&#x8D28;&#x4E2D;&#x65AD;</td>
+</tr>
+<tr>
+<td>26</td>
+<td>032</td>
+<td>1A</td>
+<td>00011010</td>
+<td>SUB</td>
+<td><code>&amp;#026;</code></td>
+<td>&#x66FF;&#x6362;</td>
+</tr>
+<tr>
+<td>27</td>
+<td>033</td>
+<td>1B</td>
+<td>00011011</td>
+<td>ESC</td>
+<td><code>&amp;#027;</code></td>
+<td>&#x6362;&#x7801;&#x7B26;</td>
+</tr>
+<tr>
+<td>28</td>
+<td>034</td>
+<td>1C</td>
+<td>00011100</td>
+<td>FS</td>
+<td><code>&amp;#028;</code></td>
+<td>&#x6587;&#x4EF6;&#x5206;&#x9694;&#x7B26;</td>
+</tr>
+<tr>
+<td>29</td>
+<td>035</td>
+<td>1D</td>
+<td>00011101</td>
+<td>GS</td>
+<td><code>&amp;#029;</code></td>
+<td>&#x7EC4;&#x5206;&#x9694;&#x7B26;</td>
+</tr>
+<tr>
+<td>30</td>
+<td>036</td>
+<td>1E</td>
+<td>00011110</td>
+<td>RS</td>
+<td><code>&amp;#030;</code></td>
+<td>&#x8BB0;&#x5F55;&#x5206;&#x79BB;&#x7B26;</td>
+</tr>
+<tr>
+<td>31</td>
+<td>037</td>
+<td>1F</td>
+<td>00011111</td>
+<td>US</td>
+<td><code>&amp;#031;</code></td>
+<td>&#x5355;&#x5143;&#x5206;&#x9694;&#x7B26;</td>
+</tr>
+</tbody>
+</table>
+<h3 class="mume-header" id="ascii%E7%A0%81%E8%A1%A8%E6%89%93%E5%8D%B0%E5%AD%97%E7%AC%A6">ASCII&#x7801;&#x8868;&#xFF08;&#x6253;&#x5370;&#x5B57;&#x7B26;&#xFF09;</h3>
+
+<table>
+<thead>
+<tr>
+<th>&#x5341;&#x8FDB;&#x5236; DEC</th>
+<th>&#x516B;&#x8FDB;&#x5236; OCT</th>
+<th>&#x5341;&#x516D;&#x8FDB;&#x5236; HEX</th>
+<th>&#x4E8C;&#x8FDB;&#x5236; BIN</th>
+<th>&#x7B26;&#x53F7; Symbol</th>
+<th>HTML &#x5B9E;&#x4F53;&#x7F16;&#x7801;</th>
+<th>&#x4E2D;&#x6587;&#x89E3;&#x91CA; Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>32</td>
+<td>040</td>
+<td>20</td>
+<td>00100000</td>
+<td>&#xA0;</td>
+<td><code>&amp;#032;</code></td>
+<td>&#x7A7A;&#x683C;</td>
+</tr>
+<tr>
+<td>33</td>
+<td>041</td>
+<td>21</td>
+<td>00100001</td>
+<td>!</td>
+<td><code>&amp;#033;</code></td>
+<td>&#x611F;&#x53F9;&#x53F7;</td>
+</tr>
+<tr>
+<td>34</td>
+<td>042</td>
+<td>22</td>
+<td>00100010</td>
+<td>&quot;</td>
+<td><code>&amp;#034;</code></td>
+<td>&#x53CC;&#x5F15;&#x53F7;</td>
+</tr>
+<tr>
+<td>35</td>
+<td>043</td>
+<td>23</td>
+<td>00100011</td>
+<td>#</td>
+<td><code>&amp;#035;</code></td>
+<td>&#x4E95;&#x53F7;</td>
+</tr>
+<tr>
+<td>36</td>
+<td>044</td>
+<td>24</td>
+<td>00100100</td>
+<td>$</td>
+<td><code>&amp;#036;</code></td>
+<td>&#x7F8E;&#x5143;&#x7B26;</td>
+</tr>
+<tr>
+<td>37</td>
+<td>045</td>
+<td>25</td>
+<td>00100101</td>
+<td>%</td>
+<td><code>&amp;#037;</code></td>
+<td>&#x767E;&#x5206;&#x53F7;</td>
+</tr>
+<tr>
+<td>38</td>
+<td>046</td>
+<td>26</td>
+<td>00100110</td>
+<td>&amp;</td>
+<td><code>&amp;#038;</code></td>
+<td>&#x4E0E;</td>
+</tr>
+<tr>
+<td>39</td>
+<td>047</td>
+<td>27</td>
+<td>00100111</td>
+<td>&#x2019;</td>
+<td><code>&amp;#039;</code></td>
+<td>&#x5355;&#x5F15;&#x53F7;</td>
+</tr>
+<tr>
+<td>40</td>
+<td>050</td>
+<td>28</td>
+<td>00101000</td>
+<td>(</td>
+<td><code>&amp;#040;</code></td>
+<td>&#x5DE6;&#x62EC;&#x53F7;</td>
+</tr>
+<tr>
+<td>41</td>
+<td>051</td>
+<td>29</td>
+<td>00101001</td>
+<td>)</td>
+<td><code>&amp;#041;</code></td>
+<td>&#x53F3;&#x62EC;&#x53F7;</td>
+</tr>
+<tr>
+<td>42</td>
+<td>052</td>
+<td>2A</td>
+<td>00101010</td>
+<td>*</td>
+<td><code>&amp;#042;</code></td>
+<td>&#x661F;&#x53F7;</td>
+</tr>
+<tr>
+<td>43</td>
+<td>053</td>
+<td>2B</td>
+<td>00101011</td>
+<td>+</td>
+<td><code>&amp;#043;</code></td>
+<td>&#x52A0;&#x53F7;</td>
+</tr>
+<tr>
+<td>44</td>
+<td>054</td>
+<td>2C</td>
+<td>00101100</td>
+<td>,</td>
+<td><code>&amp;#044;</code></td>
+<td>&#x9017;&#x53F7;</td>
+</tr>
+<tr>
+<td>45</td>
+<td>055</td>
+<td>2D</td>
+<td>00101101</td>
+<td>-</td>
+<td><code>&amp;#045;</code></td>
+<td>&#x8FDE;&#x5B57;&#x53F7;&#x6216;&#x51CF;&#x53F7;</td>
+</tr>
+<tr>
+<td>46</td>
+<td>056</td>
+<td>2E</td>
+<td>00101110</td>
+<td>.</td>
+<td><code>&amp;#046;</code></td>
+<td>&#x53E5;&#x70B9;&#x6216;&#x5C0F;&#x6570;&#x70B9;</td>
+</tr>
+<tr>
+<td>47</td>
+<td>057</td>
+<td>2F</td>
+<td>00101111</td>
+<td>/</td>
+<td><code>&amp;#047;</code></td>
+<td>&#x659C;&#x6760;</td>
+</tr>
+<tr>
+<td>48</td>
+<td>060</td>
+<td>30</td>
+<td>00110000</td>
+<td>0</td>
+<td><code>&amp;#048;</code></td>
+<td>0</td>
+</tr>
+<tr>
+<td>49</td>
+<td>061</td>
+<td>31</td>
+<td>00110001</td>
+<td>1</td>
+<td><code>&amp;#049;</code></td>
+<td>1</td>
+</tr>
+<tr>
+<td>50</td>
+<td>062</td>
+<td>32</td>
+<td>00110010</td>
+<td>2</td>
+<td><code>&amp;#050;</code></td>
+<td>2</td>
+</tr>
+<tr>
+<td>51</td>
+<td>063</td>
+<td>33</td>
+<td>00110011</td>
+<td>3</td>
+<td><code>&amp;#051;</code></td>
+<td>3</td>
+</tr>
+<tr>
+<td>52</td>
+<td>064</td>
+<td>34</td>
+<td>00110100</td>
+<td>4</td>
+<td><code>&amp;#052;</code></td>
+<td>4</td>
+</tr>
+<tr>
+<td>53</td>
+<td>065</td>
+<td>35</td>
+<td>00110101</td>
+<td>5</td>
+<td><code>&amp;#053;</code></td>
+<td>5</td>
+</tr>
+<tr>
+<td>54</td>
+<td>066</td>
+<td>36</td>
+<td>00110110</td>
+<td>6</td>
+<td><code>&amp;#054;</code></td>
+<td>6</td>
+</tr>
+<tr>
+<td>55</td>
+<td>067</td>
+<td>37</td>
+<td>00110111</td>
+<td>7</td>
+<td><code>&amp;#055;</code></td>
+<td>7</td>
+</tr>
+<tr>
+<td>56</td>
+<td>070</td>
+<td>38</td>
+<td>00111000</td>
+<td>8</td>
+<td><code>&amp;#056;</code></td>
+<td>8</td>
+</tr>
+<tr>
+<td>57</td>
+<td>071</td>
+<td>39</td>
+<td>00111001</td>
+<td>9</td>
+<td><code>&amp;#057;</code></td>
+<td>9</td>
+</tr>
+<tr>
+<td>58</td>
+<td>072</td>
+<td>3A</td>
+<td>00111010</td>
+<td>:</td>
+<td><code>&amp;#058;</code></td>
+<td>&#x5192;&#x53F7;</td>
+</tr>
+<tr>
+<td>59</td>
+<td>073</td>
+<td>3B</td>
+<td>00111011</td>
+<td>;</td>
+<td><code>&amp;#059;</code></td>
+<td>&#x5206;&#x53F7;</td>
+</tr>
+<tr>
+<td>60</td>
+<td>074</td>
+<td>3C</td>
+<td>00111100</td>
+<td>&lt;</td>
+<td><code>&amp;#060;</code></td>
+<td>&#x5C0F;&#x4E8E;</td>
+</tr>
+<tr>
+<td>61</td>
+<td>075</td>
+<td>3D</td>
+<td>00111101</td>
+<td>=</td>
+<td><code>&amp;#061;</code></td>
+<td>&#x7B49;&#x53F7;</td>
+</tr>
+<tr>
+<td>62</td>
+<td>076</td>
+<td>3E</td>
+<td>00111110</td>
+<td>\&gt;</td>
+<td><code>&amp;#062;</code></td>
+<td>&#x5927;&#x4E8E;</td>
+</tr>
+<tr>
+<td>63</td>
+<td>077</td>
+<td>3F</td>
+<td>00111111</td>
+<td>?</td>
+<td><code>&amp;#063;</code></td>
+<td>&#x95EE;&#x53F7;</td>
+</tr>
+<tr>
+<td>64</td>
+<td>100</td>
+<td>40</td>
+<td>01000000</td>
+<td>@</td>
+<td><code>&amp;#064;</code></td>
+<td>&#x7535;&#x5B50;&#x90AE;&#x4EF6;&#x7B26;&#x53F7;</td>
+</tr>
+<tr>
+<td>65</td>
+<td>101</td>
+<td>41</td>
+<td>01000001</td>
+<td>A</td>
+<td><code>&amp;#065;</code></td>
+<td>&#x5927;&#x5199;&#x5B57;&#x6BCD; A</td>
+</tr>
+<tr>
+<td>66</td>
+<td>102</td>
+<td>42</td>
+<td>01000010</td>
+<td>B</td>
+<td><code>&amp;#066;</code></td>
+<td>&#x5927;&#x5199;&#x5B57;&#x6BCD; B</td>
+</tr>
+<tr>
+<td>67</td>
+<td>103</td>
+<td>43</td>
+<td>01000011</td>
+<td>C</td>
+<td><code>&amp;#067;</code></td>
+<td>&#x5927;&#x5199;&#x5B57;&#x6BCD; C</td>
+</tr>
+<tr>
+<td>68</td>
+<td>104</td>
+<td>44</td>
+<td>01000100</td>
+<td>D</td>
+<td><code>&amp;#068;</code></td>
+<td>&#x5927;&#x5199;&#x5B57;&#x6BCD; D</td>
+</tr>
+<tr>
+<td>69</td>
+<td>105</td>
+<td>45</td>
+<td>01000101</td>
+<td>E</td>
+<td><code>&amp;#069;</code></td>
+<td>&#x5927;&#x5199;&#x5B57;&#x6BCD; E</td>
+</tr>
+<tr>
+<td>70</td>
+<td>106</td>
+<td>46</td>
+<td>01000110</td>
+<td>F</td>
+<td><code>&amp;#070;</code></td>
+<td>&#x5927;&#x5199;&#x5B57;&#x6BCD; F</td>
+</tr>
+<tr>
+<td>71</td>
+<td>107</td>
+<td>47</td>
+<td>01000111</td>
+<td>G</td>
+<td><code>&amp;#071;</code></td>
+<td>&#x5927;&#x5199;&#x5B57;&#x6BCD; G</td>
+</tr>
+<tr>
+<td>72</td>
+<td>110</td>
+<td>48</td>
+<td>01001000</td>
+<td>H</td>
+<td><code>&amp;#072;</code></td>
+<td>&#x5927;&#x5199;&#x5B57;&#x6BCD; H</td>
+</tr>
+<tr>
+<td>73</td>
+<td>111</td>
+<td>49</td>
+<td>01001001</td>
+<td>I</td>
+<td><code>&amp;#073;</code></td>
+<td>&#x5927;&#x5199;&#x5B57;&#x6BCD; I</td>
+</tr>
+<tr>
+<td>74</td>
+<td>112</td>
+<td>4A</td>
+<td>01001010</td>
+<td>J</td>
+<td><code>&amp;#074;</code></td>
+<td>&#x5927;&#x5199;&#x5B57;&#x6BCD; J</td>
+</tr>
+<tr>
+<td>75</td>
+<td>113</td>
+<td>4B</td>
+<td>01001011</td>
+<td>K</td>
+<td><code>&amp;#075;</code></td>
+<td>&#x5927;&#x5199;&#x5B57;&#x6BCD; K</td>
+</tr>
+<tr>
+<td>76</td>
+<td>114</td>
+<td>4C</td>
+<td>01001100</td>
+<td>L</td>
+<td><code>&amp;#076;</code></td>
+<td>&#x5927;&#x5199;&#x5B57;&#x6BCD; L</td>
+</tr>
+<tr>
+<td>77</td>
+<td>115</td>
+<td>4D</td>
+<td>01001101</td>
+<td>M</td>
+<td><code>&amp;#077;</code></td>
+<td>&#x5927;&#x5199;&#x5B57;&#x6BCD; M</td>
+</tr>
+<tr>
+<td>78</td>
+<td>116</td>
+<td>4E</td>
+<td>01001110</td>
+<td>N</td>
+<td><code>&amp;#078;</code></td>
+<td>&#x5927;&#x5199;&#x5B57;&#x6BCD; N</td>
+</tr>
+<tr>
+<td>79</td>
+<td>117</td>
+<td>4F</td>
+<td>01001111</td>
+<td>O</td>
+<td><code>&amp;#079;</code></td>
+<td>&#x5927;&#x5199;&#x5B57;&#x6BCD; O</td>
+</tr>
+<tr>
+<td>80</td>
+<td>120</td>
+<td>50</td>
+<td>01010000</td>
+<td>P</td>
+<td><code>&amp;#080;</code></td>
+<td>&#x5927;&#x5199;&#x5B57;&#x6BCD; P</td>
+</tr>
+<tr>
+<td>81</td>
+<td>121</td>
+<td>51</td>
+<td>01010001</td>
+<td>Q</td>
+<td><code>&amp;#081;</code></td>
+<td>&#x5927;&#x5199;&#x5B57;&#x6BCD; Q</td>
+</tr>
+<tr>
+<td>82</td>
+<td>122</td>
+<td>52</td>
+<td>01010010</td>
+<td>R</td>
+<td><code>&amp;#082;</code></td>
+<td>&#x5927;&#x5199;&#x5B57;&#x6BCD; R</td>
+</tr>
+<tr>
+<td>83</td>
+<td>123</td>
+<td>53</td>
+<td>01010011</td>
+<td>S</td>
+<td><code>&amp;#083;</code></td>
+<td>&#x5927;&#x5199;&#x5B57;&#x6BCD; S</td>
+</tr>
+<tr>
+<td>84</td>
+<td>124</td>
+<td>54</td>
+<td>01010100</td>
+<td>T</td>
+<td><code>&amp;#084;</code></td>
+<td>&#x5927;&#x5199;&#x5B57;&#x6BCD; T</td>
+</tr>
+<tr>
+<td>85</td>
+<td>125</td>
+<td>55</td>
+<td>01010101</td>
+<td>U</td>
+<td><code>&amp;#085;</code></td>
+<td>&#x5927;&#x5199;&#x5B57;&#x6BCD; U</td>
+</tr>
+<tr>
+<td>86</td>
+<td>126</td>
+<td>56</td>
+<td>01010110</td>
+<td>V</td>
+<td><code>&amp;#086;</code></td>
+<td>&#x5927;&#x5199;&#x5B57;&#x6BCD; V</td>
+</tr>
+<tr>
+<td>87</td>
+<td>127</td>
+<td>57</td>
+<td>01010111</td>
+<td>W</td>
+<td>`&amp;#087</td>
+<td>&#x5927;&#x5199;&#x5B57;&#x6BCD; W</td>
+</tr>
+<tr>
+<td>88</td>
+<td>130</td>
+<td>58</td>
+<td>01011000</td>
+<td>X</td>
+<td><code>&amp;#088;</code></td>
+<td>&#x5927;&#x5199;&#x5B57;&#x6BCD; X</td>
+</tr>
+<tr>
+<td>89</td>
+<td>131</td>
+<td>59</td>
+<td>01011001</td>
+<td>Y</td>
+<td><code>&amp;#089;</code></td>
+<td>&#x5927;&#x5199;&#x5B57;&#x6BCD; Y</td>
+</tr>
+<tr>
+<td>90</td>
+<td>132</td>
+<td>5A</td>
+<td>01011010</td>
+<td>Z</td>
+<td><code>&amp;#090;</code></td>
+<td>&#x5927;&#x5199;&#x5B57;&#x6BCD; Z</td>
+</tr>
+<tr>
+<td>91</td>
+<td>133</td>
+<td>5B</td>
+<td>01011011</td>
+<td>[</td>
+<td><code>&amp;#091;</code></td>
+<td>&#x5DE6;&#x4E2D;&#x62EC;&#x53F7;</td>
+</tr>
+<tr>
+<td>92</td>
+<td>134</td>
+<td>5C</td>
+<td>01011100</td>
+<td>\</td>
+<td><code>&amp;#092;</code></td>
+<td>&#x53CD;&#x659C;&#x6760;</td>
+</tr>
+<tr>
+<td>93</td>
+<td>135</td>
+<td>5D</td>
+<td>01011101</td>
+<td>]</td>
+<td><code>&amp;#093;</code></td>
+<td>&#x53F3;&#x4E2D;&#x62EC;&#x53F7;</td>
+</tr>
+<tr>
+<td>94</td>
+<td>136</td>
+<td>5E</td>
+<td>01011110</td>
+<td>\^</td>
+<td><code>&amp;#094;</code></td>
+<td>&#x97F3;&#x8C03;&#x7B26;&#x53F7;</td>
+</tr>
+<tr>
+<td>95</td>
+<td>137</td>
+<td>5F</td>
+<td>01011111</td>
+<td>_</td>
+<td><code>&amp;#095;</code></td>
+<td>&#x4E0B;&#x5212;&#x7EBF;</td>
+</tr>
+<tr>
+<td>96</td>
+<td>140</td>
+<td>60</td>
+<td>01100000</td>
+<td>`</td>
+<td><code>&amp;#096;</code></td>
+<td>&#x91CD;&#x97F3;&#x7B26;</td>
+</tr>
+<tr>
+<td>97</td>
+<td>141</td>
+<td>61</td>
+<td>01100001</td>
+<td>a</td>
+<td><code>&amp;#097;</code></td>
+<td>&#x5C0F;&#x5199;&#x5B57;&#x6BCD; a</td>
+</tr>
+<tr>
+<td>98</td>
+<td>142</td>
+<td>62</td>
+<td>01100010</td>
+<td>b</td>
+<td><code>&amp;#098;</code></td>
+<td>&#x5C0F;&#x5199;&#x5B57;&#x6BCD; b</td>
+</tr>
+<tr>
+<td>99</td>
+<td>143</td>
+<td>63</td>
+<td>01100011</td>
+<td>c</td>
+<td><code>&amp;#099;</code></td>
+<td>&#x5C0F;&#x5199;&#x5B57;&#x6BCD; c</td>
+</tr>
+<tr>
+<td>100</td>
+<td>144</td>
+<td>64</td>
+<td>01100100</td>
+<td>d</td>
+<td><code>&amp;#100;</code></td>
+<td>&#x5C0F;&#x5199;&#x5B57;&#x6BCD; d</td>
+</tr>
+<tr>
+<td>101</td>
+<td>145</td>
+<td>65</td>
+<td>01100101</td>
+<td>e</td>
+<td><code>&amp;#101;</code></td>
+<td>&#x5C0F;&#x5199;&#x5B57;&#x6BCD; e</td>
+</tr>
+<tr>
+<td>102</td>
+<td>146</td>
+<td>66</td>
+<td>01100110</td>
+<td>f</td>
+<td><code>&amp;#102;</code></td>
+<td>&#x5C0F;&#x5199;&#x5B57;&#x6BCD; f</td>
+</tr>
+<tr>
+<td>103</td>
+<td>147</td>
+<td>67</td>
+<td>01100111</td>
+<td>g</td>
+<td><code>&amp;#103;</code></td>
+<td>&#x5C0F;&#x5199;&#x5B57;&#x6BCD; g</td>
+</tr>
+<tr>
+<td>104</td>
+<td>150</td>
+<td>68</td>
+<td>01101000</td>
+<td>h</td>
+<td><code>&amp;#104;</code></td>
+<td>&#x5C0F;&#x5199;&#x5B57;&#x6BCD; h</td>
+</tr>
+<tr>
+<td>105</td>
+<td>151</td>
+<td>69</td>
+<td>01101001</td>
+<td>i</td>
+<td><code>&amp;#105;</code></td>
+<td>&#x5C0F;&#x5199;&#x5B57;&#x6BCD; i</td>
+</tr>
+<tr>
+<td>106</td>
+<td>152</td>
+<td>6A</td>
+<td>01101010</td>
+<td>j</td>
+<td><code>&amp;#106;</code></td>
+<td>&#x5C0F;&#x5199;&#x5B57;&#x6BCD; j</td>
+</tr>
+<tr>
+<td>107</td>
+<td>153</td>
+<td>6B</td>
+<td>01101011</td>
+<td>k</td>
+<td><code>&amp;#107;</code></td>
+<td>&#x5C0F;&#x5199;&#x5B57;&#x6BCD; k</td>
+</tr>
+<tr>
+<td>108</td>
+<td>154</td>
+<td>6C</td>
+<td>01101100</td>
+<td>l</td>
+<td><code>&amp;#108;</code></td>
+<td>&#x5C0F;&#x5199;&#x5B57;&#x6BCD; l</td>
+</tr>
+<tr>
+<td>109</td>
+<td>155</td>
+<td>6D</td>
+<td>01101101</td>
+<td>m</td>
+<td><code>&amp;#109;</code></td>
+<td>&#x5C0F;&#x5199;&#x5B57;&#x6BCD; m</td>
+</tr>
+<tr>
+<td>110</td>
+<td>156</td>
+<td>6E</td>
+<td>01101110</td>
+<td>n</td>
+<td><code>&amp;#110;</code></td>
+<td>&#x5C0F;&#x5199;&#x5B57;&#x6BCD; n</td>
+</tr>
+<tr>
+<td>111</td>
+<td>157</td>
+<td>6F</td>
+<td>01101111</td>
+<td>o</td>
+<td><code>&amp;#111;</code></td>
+<td>&#x5C0F;&#x5199;&#x5B57;&#x6BCD; o</td>
+</tr>
+<tr>
+<td>112</td>
+<td>160</td>
+<td>70</td>
+<td>01110000</td>
+<td>p</td>
+<td><code>&amp;#112;</code></td>
+<td>&#x5C0F;&#x5199;&#x5B57;&#x6BCD; p</td>
+</tr>
+<tr>
+<td>113</td>
+<td>161</td>
+<td>71</td>
+<td>01110001</td>
+<td>q</td>
+<td><code>&amp;#113;</code></td>
+<td>&#x5C0F;&#x5199;&#x5B57;&#x6BCD; q</td>
+</tr>
+<tr>
+<td>114</td>
+<td>162</td>
+<td>72</td>
+<td>01110010</td>
+<td>r</td>
+<td><code>&amp;#114;</code></td>
+<td>&#x5C0F;&#x5199;&#x5B57;&#x6BCD; r</td>
+</tr>
+<tr>
+<td>115</td>
+<td>163</td>
+<td>73</td>
+<td>01110011</td>
+<td>s</td>
+<td><code>&amp;#115;</code></td>
+<td>&#x5C0F;&#x5199;&#x5B57;&#x6BCD; s</td>
+</tr>
+<tr>
+<td>116</td>
+<td>164</td>
+<td>74</td>
+<td>01110100</td>
+<td>t</td>
+<td><code>&amp;#116;</code></td>
+<td>&#x5C0F;&#x5199;&#x5B57;&#x6BCD; t</td>
+</tr>
+<tr>
+<td>117</td>
+<td>165</td>
+<td>75</td>
+<td>01110101</td>
+<td>u</td>
+<td><code>&amp;#117;</code></td>
+<td>&#x5C0F;&#x5199;&#x5B57;&#x6BCD; u</td>
+</tr>
+<tr>
+<td>118</td>
+<td>166</td>
+<td>76</td>
+<td>01110110</td>
+<td>v</td>
+<td><code>&amp;#118;</code></td>
+<td>&#x5C0F;&#x5199;&#x5B57;&#x6BCD; v</td>
+</tr>
+<tr>
+<td>119</td>
+<td>167</td>
+<td>77</td>
+<td>01110111</td>
+<td>w</td>
+<td><code>&amp;#119;</code></td>
+<td>&#x5C0F;&#x5199;&#x5B57;&#x6BCD; w</td>
+</tr>
+<tr>
+<td>120</td>
+<td>170</td>
+<td>78</td>
+<td>01111000</td>
+<td>x</td>
+<td><code>&amp;#120;</code></td>
+<td>&#x5C0F;&#x5199;&#x5B57;&#x6BCD; x</td>
+</tr>
+<tr>
+<td>121</td>
+<td>171</td>
+<td>79</td>
+<td>01111001</td>
+<td>y</td>
+<td><code>&amp;#121;</code></td>
+<td>&#x5C0F;&#x5199;&#x5B57;&#x6BCD; y</td>
+</tr>
+<tr>
+<td>122</td>
+<td>172</td>
+<td>7A</td>
+<td>01111010</td>
+<td>z</td>
+<td><code>&amp;#122;</code></td>
+<td>&#x5C0F;&#x5199;&#x5B57;&#x6BCD; z</td>
+</tr>
+<tr>
+<td>123</td>
+<td>173</td>
+<td>7B</td>
+<td>01111011</td>
+<td>{</td>
+<td><code>&amp;#123;</code></td>
+<td>&#x5DE6;&#x5927;&#x62EC;&#x53F7;</td>
+</tr>
+<tr>
+<td>124</td>
+<td>174</td>
+<td>7C</td>
+<td>01111100</td>
+<td>|</td>
+<td><code>&amp;#124;</code></td>
+<td>&#x5782;&#x76F4;&#x7EBF;</td>
+</tr>
+<tr>
+<td>125</td>
+<td>175</td>
+<td>7D</td>
+<td>01111101</td>
+<td>}</td>
+<td><code>&amp;#125;</code></td>
+<td>&#x53F3;&#x5927;&#x62EC;&#x53F7;</td>
+</tr>
+<tr>
+<td>126</td>
+<td>176</td>
+<td>7E</td>
+<td>01111110</td>
+<td>~</td>
+<td><code>&amp;#126;</code></td>
+<td>&#x6CE2;&#x6D6A;&#x53F7;</td>
+</tr>
+<tr>
+<td>127</td>
+<td>177</td>
+<td>7F</td>
+<td>01111111</td>
+<td>&#xA0;</td>
+<td><code>&amp;#127;</code></td>
+<td>&#x5220;&#x9664;</td>
+</tr>
+</tbody>
+</table>
+<h3 class="mume-header" id="ascii%E7%A0%81%E8%A1%A8%E6%89%A9%E5%B1%95%E5%AD%97%E7%AC%A6">ASCII&#x7801;&#x8868;&#xFF08;&#x6269;&#x5C55;&#x5B57;&#x7B26;&#xFF09;</h3>
+
+<table>
+<thead>
+<tr>
+<th>&#x5341;&#x8FDB;&#x5236; DEC</th>
+<th>&#x516B;&#x8FDB;&#x5236; OCT</th>
+<th>&#x5341;&#x516D;&#x8FDB;&#x5236; HEX</th>
+<th>&#x4E8C;&#x8FDB;&#x5236; BIN</th>
+<th>&#x7B26;&#x53F7; Symbol</th>
+<th>HTML &#x5B9E;&#x4F53;&#x7F16;&#x7801;</th>
+<th>&#x4E2D;&#x6587;&#x89E3;&#x91CA; Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>128</td>
+<td>200</td>
+<td>80</td>
+<td>10000000</td>
+<td>&#x20AC;</td>
+<td><code>&amp;#128;</code></td>
+<td>&#x6B27;&#x76DF;&#x7B26;&#x53F7;</td>
+</tr>
+<tr>
+<td>129</td>
+<td>201</td>
+<td>81</td>
+<td>10000001</td>
+<td>&#xA0;</td>
+<td>&#xA0;</td>
+<td>&#xA0;</td>
+</tr>
+<tr>
+<td>130</td>
+<td>202</td>
+<td>82</td>
+<td>10000010</td>
+<td>&#x201A;</td>
+<td><code>&amp;#130;</code></td>
+<td>&#x5355;&#x4F4E; 9 &#x5F15;&#x53F7;</td>
+</tr>
+<tr>
+<td>131</td>
+<td>203</td>
+<td>83</td>
+<td>10000011</td>
+<td>&#x192;</td>
+<td><code>&amp;#131;</code></td>
+<td>&#x5E26;&#x94A9;&#x7684;&#x62C9;&#x4E01;&#x5C0F;&#x5199;&#x5B57;&#x6BCD;f</td>
+</tr>
+<tr>
+<td>132</td>
+<td>204</td>
+<td>84</td>
+<td>10000100</td>
+<td>&#x201E;</td>
+<td><code>&amp;#132;</code></td>
+<td>&#x53CC;&#x4F4E; 9 &#x5F15;&#x53F7;</td>
+</tr>
+<tr>
+<td>133</td>
+<td>205</td>
+<td>85</td>
+<td>10000101</td>
+<td>&#x2026;</td>
+<td><code>&amp;#133;</code></td>
+<td>&#x6C34;&#x5E73;&#x7701;&#x7565;&#x53F7;</td>
+</tr>
+<tr>
+<td>134</td>
+<td>206</td>
+<td>86</td>
+<td>10000110</td>
+<td>&#x2020;</td>
+<td><code>&amp;#134;</code></td>
+<td>&#x5251;&#x53F7;</td>
+</tr>
+<tr>
+<td>135</td>
+<td>207</td>
+<td>87</td>
+<td>10000111</td>
+<td>&#x2021;</td>
+<td><code>&amp;#135;</code></td>
+<td>&#x53CC;&#x5251;&#x53F7;</td>
+</tr>
+<tr>
+<td>136</td>
+<td>210</td>
+<td>88</td>
+<td>10001000</td>
+<td>&#x2C6;</td>
+<td><code>&amp;#136;</code></td>
+<td>&#x4FEE;&#x6B63;&#x5B57;&#x7B26;,&#x6291;&#x626C;&#x97F3;&#x7B26;&#x53F7;</td>
+</tr>
+<tr>
+<td>137</td>
+<td>211</td>
+<td>89</td>
+<td>10001001</td>
+<td>&#x2030;</td>
+<td><code>&amp;#137;</code></td>
+<td>&#x5343;&#x5206;&#x53F7;</td>
+</tr>
+<tr>
+<td>138</td>
+<td>212</td>
+<td>8A</td>
+<td>10001010</td>
+<td>&#x160;</td>
+<td><code>&amp;#138;</code></td>
+<td>&#x5E26;&#x5F2F;&#x97F3;&#x53F7;&#x7684;&#x62C9;&#x4E01;&#x5927;&#x5199;&#x5B57;&#x6BCD; S</td>
+</tr>
+<tr>
+<td>139</td>
+<td>213</td>
+<td>8B</td>
+<td>10001011</td>
+<td>&#x2039;</td>
+<td><code>&amp;#139;</code></td>
+<td>&#x5DE6;&#x5355;&#x4E66;&#x540D;&#x53F7;</td>
+</tr>
+<tr>
+<td>140</td>
+<td>214</td>
+<td>8C</td>
+<td>10001100</td>
+<td>&#x152;</td>
+<td><code>&amp;#140;</code></td>
+<td>&#x62C9;&#x4E01;&#x5927;&#x5199;&#x7EC4;&#x5408; OE</td>
+</tr>
+<tr>
+<td>141</td>
+<td>215</td>
+<td>8D</td>
+<td>10001101</td>
+<td>&#xA0;</td>
+<td>&#xA0;</td>
+<td>&#xA0;</td>
+</tr>
+<tr>
+<td>142</td>
+<td>216</td>
+<td>8E</td>
+<td>10001110</td>
+<td>&#x17D;</td>
+<td><code>&amp;#142;</code></td>
+<td>&#x5E26;&#x5F2F;&#x97F3;&#x53F7;&#x7684;&#x62C9;&#x4E01;&#x5927;&#x5199;&#x5B57;&#x6BCD; z</td>
+</tr>
+<tr>
+<td>143</td>
+<td>217</td>
+<td>8F</td>
+<td>10001111</td>
+<td>&#xA0;</td>
+<td>&#xA0;</td>
+<td>&#xA0;</td>
+</tr>
+<tr>
+<td>144</td>
+<td>220</td>
+<td>90</td>
+<td>10010000</td>
+<td>&#xA0;</td>
+<td>&#xA0;</td>
+<td>&#xA0;</td>
+</tr>
+<tr>
+<td>145</td>
+<td>221</td>
+<td>91</td>
+<td>10010001</td>
+<td>&#x2018;</td>
+<td><code>&amp;#145;</code></td>
+<td>&#x5DE6;&#x5355;&#x5F15;&#x53F7;</td>
+</tr>
+<tr>
+<td>146</td>
+<td>222</td>
+<td>92</td>
+<td>10010010</td>
+<td>&#x2019;</td>
+<td><code>&amp;#146;</code></td>
+<td>&#x53F3;&#x5355;&#x5F15;&#x53F7;</td>
+</tr>
+<tr>
+<td>147</td>
+<td>223</td>
+<td>93</td>
+<td>10010011</td>
+<td>&#x201C;</td>
+<td><code>&amp;#147;</code></td>
+<td>&#x5DE6;&#x53CC;&#x5F15;&#x53F7;</td>
+</tr>
+<tr>
+<td>148</td>
+<td>224</td>
+<td>94</td>
+<td>10010100</td>
+<td>&#x201D;</td>
+<td><code>&amp;#148;</code></td>
+<td>&#x53F3;&#x53CC;&#x5F15;&#x53F7;</td>
+</tr>
+<tr>
+<td>149</td>
+<td>225</td>
+<td>95</td>
+<td>10010101</td>
+<td>&#x2022;</td>
+<td><code>&amp;#149;</code></td>
+<td>&#xA0;</td>
+</tr>
+<tr>
+<td>150</td>
+<td>226</td>
+<td>96</td>
+<td>10010110</td>
+<td>&#x2013;</td>
+<td><code>&amp;#150;</code></td>
+<td>&#x534A;&#x957F;&#x7834;&#x6298;&#x53F7;</td>
+</tr>
+<tr>
+<td>151</td>
+<td>227</td>
+<td>97</td>
+<td>10010111</td>
+<td>&#x2014;</td>
+<td><code>&amp;#151;</code></td>
+<td>&#x5168;&#x957F;&#x7834;&#x6298;&#x53F7;</td>
+</tr>
+<tr>
+<td>152</td>
+<td>230</td>
+<td>98</td>
+<td>10011000</td>
+<td>&#x2DC;</td>
+<td><code>&amp;#152;</code></td>
+<td>&#x5C0F;&#x6CE2;&#x6D6A;&#x7EBF;</td>
+</tr>
+<tr>
+<td>153</td>
+<td>231</td>
+<td>99</td>
+<td>10011001</td>
+<td>&#x2122;</td>
+<td><code>&amp;#153;</code></td>
+<td>&#xA0;</td>
+</tr>
+<tr>
+<td>154</td>
+<td>232</td>
+<td>9A</td>
+<td>10011010</td>
+<td>&#x161;</td>
+<td><code>&amp;#154;</code></td>
+<td>&#x5E26;&#x5F2F;&#x97F3;&#x53F7;&#x7684;&#x62C9;&#x4E01;&#x5C0F;&#x5199;&#x5B57;&#x6BCD; s</td>
+</tr>
+<tr>
+<td>155</td>
+<td>233</td>
+<td>9B</td>
+<td>10011011</td>
+<td>&#x203A;</td>
+<td><code>&amp;#155;</code></td>
+<td>&#x53F3;&#x5355;&#x4E66;&#x540D;&#x53F7;</td>
+</tr>
+<tr>
+<td>156</td>
+<td>234</td>
+<td>9C</td>
+<td>10011100</td>
+<td>&#x153;</td>
+<td><code>&amp;#156;</code></td>
+<td>&#x62C9;&#x4E01;&#x5C0F;&#x5199;&#x7EC4;&#x5408; oe</td>
+</tr>
+<tr>
+<td>157</td>
+<td>235</td>
+<td>9D</td>
+<td>10011101</td>
+<td>&#xA0;</td>
+<td>&#xA0;</td>
+<td>&#xA0;</td>
+</tr>
+<tr>
+<td>158</td>
+<td>236</td>
+<td>9E</td>
+<td>10011110</td>
+<td>&#x17E;</td>
+<td><code>&amp;#158;</code></td>
+<td>&#x5E26;&#x5F2F;&#x97F3;&#x53F7;&#x7684;&#x62C9;&#x4E01;&#x5C0F;&#x5199;&#x5B57;&#x6BCD; z</td>
+</tr>
+<tr>
+<td>159</td>
+<td>237</td>
+<td>9F</td>
+<td>10011111</td>
+<td>&#x178;</td>
+<td><code>&amp;#159;</code></td>
+<td>&#x5E26;&#x5F2F;&#x97F3;&#x53F7;&#x7684;&#x62C9;&#x4E01;&#x5927;&#x5199;&#x5B57;&#x6BCD; Y</td>
+</tr>
+<tr>
+<td>160</td>
+<td>240</td>
+<td>A0</td>
+<td>10100000</td>
+<td>&#xA0;</td>
+<td><code>&amp;#160;</code></td>
+<td>&#xA0;</td>
+</tr>
+<tr>
+<td>161</td>
+<td>241</td>
+<td>A1</td>
+<td>10100001</td>
+<td>&#xA1;</td>
+<td><code>&amp;#161;</code></td>
+<td>&#x53CD;&#x5411;&#x611F;&#x53F9;&#x53F7;</td>
+</tr>
+<tr>
+<td>162</td>
+<td>242</td>
+<td>A2</td>
+<td>10100010</td>
+<td>&#xA2;</td>
+<td><code>&amp;#162;</code></td>
+<td>&#x5206;&#x5E01;&#x7B26;&#x53F7;</td>
+</tr>
+<tr>
+<td>163</td>
+<td>243</td>
+<td>A3</td>
+<td>10100011</td>
+<td>&#xA3;</td>
+<td><code>&amp;#163;</code></td>
+<td>&#x82F1;&#x78C5;&#x7B26;&#x53F7;</td>
+</tr>
+<tr>
+<td>164</td>
+<td>244</td>
+<td>A4</td>
+<td>10100100</td>
+<td>&#xA4;</td>
+<td><code>&amp;#164;</code></td>
+<td>&#xA0;</td>
+</tr>
+<tr>
+<td>165</td>
+<td>245</td>
+<td>A5</td>
+<td>10100101</td>
+<td>&#xA5;</td>
+<td><code>&amp;#165;</code></td>
+<td>&#x4EBA;&#x6C11;&#x5E01;&#x7B26;&#x53F7;</td>
+</tr>
+<tr>
+<td>166</td>
+<td>246</td>
+<td>A6</td>
+<td>10100110</td>
+<td>&#xA6;</td>
+<td><code>&amp;#166;</code></td>
+<td>&#xA0;</td>
+</tr>
+<tr>
+<td>167</td>
+<td>247</td>
+<td>A7</td>
+<td>10100111</td>
+<td>&#xA7;</td>
+<td><code>&amp;#167;</code></td>
+<td>&#x7AE0;&#x8282;&#x7B26;&#x53F7;</td>
+</tr>
+<tr>
+<td>168</td>
+<td>250</td>
+<td>A8</td>
+<td>10101000</td>
+<td>&#xA8;</td>
+<td><code>&amp;#168;</code></td>
+<td>&#x901A;&#x7528;&#x8D27;&#x5E01;&#x7B26;&#x53F7;</td>
+</tr>
+<tr>
+<td>169</td>
+<td>251</td>
+<td>A9</td>
+<td>10101001</td>
+<td>&#xA9;</td>
+<td><code>&amp;#169;</code></td>
+<td>&#x7248;&#x6743;&#x7B26;&#x53F7;</td>
+</tr>
+<tr>
+<td>170</td>
+<td>252</td>
+<td>AA</td>
+<td>10101010</td>
+<td>&#xAA;</td>
+<td><code>&amp;#170;</code></td>
+<td>&#x9634;&#x6027;&#x987A;&#x5E8F;&#x6307;&#x793A;&#x7B26;&#x53F7;</td>
+</tr>
+<tr>
+<td>171</td>
+<td>253</td>
+<td>AB</td>
+<td>10101011</td>
+<td>&#xAB;</td>
+<td><code>&amp;#171;</code></td>
+<td>&#x5DE6;&#x89D2;&#x5F15;&#x53F7;</td>
+</tr>
+<tr>
+<td>172</td>
+<td>254</td>
+<td>AC</td>
+<td>10101100</td>
+<td>&#xAC;</td>
+<td><code>&amp;#172;</code></td>
+<td>&#xA0;</td>
+</tr>
+<tr>
+<td>173</td>
+<td>255</td>
+<td>AD</td>
+<td>10101101</td>
+<td>&#xA0;&#xAD;</td>
+<td><code>&amp;#173;</code></td>
+<td>&#xA0;</td>
+</tr>
+<tr>
+<td>174</td>
+<td>256</td>
+<td>AE</td>
+<td>10101110</td>
+<td>&#xAE;</td>
+<td><code>&amp;#174;</code></td>
+<td>&#xA0;</td>
+</tr>
+<tr>
+<td>175</td>
+<td>257</td>
+<td>AF</td>
+<td>10101111</td>
+<td>&#xAF;</td>
+<td><code>&amp;#175;</code></td>
+<td>&#xA0;</td>
+</tr>
+<tr>
+<td>176</td>
+<td>260</td>
+<td>B0</td>
+<td>10110000</td>
+<td>&#xB0;</td>
+<td><code>&amp;#176;</code></td>
+<td>&#x6E29;&#x5EA6;&#x7B26;&#x53F7;</td>
+</tr>
+<tr>
+<td>177</td>
+<td>261</td>
+<td>B1</td>
+<td>10110001</td>
+<td>&#xB1;</td>
+<td><code>&amp;#177;</code></td>
+<td>&#x52A0;/&#x51CF;&#x53F7;</td>
+</tr>
+<tr>
+<td>178</td>
+<td>262</td>
+<td>B2</td>
+<td>10110010</td>
+<td>&#xB2;</td>
+<td><code>&amp;#178;</code></td>
+<td>&#x4E0A;&#x6807; 2</td>
+</tr>
+<tr>
+<td>179</td>
+<td>263</td>
+<td>B3</td>
+<td>10110011</td>
+<td>&#xB3;</td>
+<td><code>&amp;#179;</code></td>
+<td>&#x4E0A;&#x6807; 3</td>
+</tr>
+<tr>
+<td>180</td>
+<td>264</td>
+<td>B4</td>
+<td>10110100</td>
+<td>&#xB4;</td>
+<td><code>&amp;#180;</code></td>
+<td>&#xA0;</td>
+</tr>
+<tr>
+<td>181</td>
+<td>265</td>
+<td>B5</td>
+<td>10110101</td>
+<td>&#xB5;</td>
+<td><code>&amp;#181;</code></td>
+<td>&#x5FAE;&#x7B26;&#x53F7;</td>
+</tr>
+<tr>
+<td>182</td>
+<td>266</td>
+<td>B6</td>
+<td>10110110</td>
+<td>&#xB6;</td>
+<td><code>&amp;#182;</code></td>
+<td>&#x6BB5;&#x843D;&#x7B26;&#x53F7;&#xFF0C;pilcrow</td>
+</tr>
+<tr>
+<td>183</td>
+<td>267</td>
+<td>B7</td>
+<td>10110111</td>
+<td>&#xB7;</td>
+<td><code>&amp;#183;</code></td>
+<td>&#x4E2D;&#x70B9;</td>
+</tr>
+<tr>
+<td>184</td>
+<td>270</td>
+<td>B8</td>
+<td>10111000</td>
+<td>&#xB8;</td>
+<td><code>&amp;#184;</code></td>
+<td>&#xA0;</td>
+</tr>
+<tr>
+<td>185</td>
+<td>271</td>
+<td>B9</td>
+<td>10111001</td>
+<td>&#xB9;</td>
+<td><code>&amp;#185;</code></td>
+<td>&#x4E0A;&#x6807; 1</td>
+</tr>
+<tr>
+<td>186</td>
+<td>272</td>
+<td>BA</td>
+<td>10111010</td>
+<td>&#xBA;</td>
+<td><code>&amp;#186;</code></td>
+<td>&#x9633;&#x6027;&#x987A;&#x5E8F;&#x6307;&#x793A;&#x7B26;</td>
+</tr>
+<tr>
+<td>187</td>
+<td>273</td>
+<td>BB</td>
+<td>10111011</td>
+<td>&#xBB;</td>
+<td><code>&amp;#187;</code></td>
+<td>&#x53F3;&#x89D2;&#x5F15;&#x53F7;</td>
+</tr>
+<tr>
+<td>188</td>
+<td>274</td>
+<td>BC</td>
+<td>10111100</td>
+<td>&#xBC;</td>
+<td><code>&amp;#188;</code></td>
+<td>&#x5206;&#x6570;&#x56DB;&#x5206;&#x4E4B;&#x4E00;</td>
+</tr>
+<tr>
+<td>189</td>
+<td>275</td>
+<td>BD</td>
+<td>10111101</td>
+<td>&#xBD;</td>
+<td><code>&amp;#189;</code></td>
+<td>&#x5206;&#x6570;&#x4E8C;&#x5206;&#x4E4B;&#x4E00;</td>
+</tr>
+<tr>
+<td>190</td>
+<td>276</td>
+<td>BE</td>
+<td>10111110</td>
+<td>&#xBE;</td>
+<td><code>&amp;#190;</code></td>
+<td>&#xA0;</td>
+</tr>
+<tr>
+<td>191</td>
+<td>277</td>
+<td>BF</td>
+<td>10111111</td>
+<td>&#xBF;</td>
+<td><code>&amp;#191;</code></td>
+<td>&#x53CD;&#x5411;&#x95EE;&#x53F7;</td>
+</tr>
+<tr>
+<td>192</td>
+<td>300</td>
+<td>C0</td>
+<td>11000000</td>
+<td>&#xC0;</td>
+<td><code>&amp;#192;</code></td>
+<td>&#x5E26;&#x91CD;&#x97F3;&#x7B26;&#x7684;&#x5927;&#x5199;&#x5B57;&#x6BCD; A</td>
+</tr>
+<tr>
+<td>193</td>
+<td>301</td>
+<td>C1</td>
+<td>11000001</td>
+<td>&#xC1;</td>
+<td><code>&amp;#193;</code></td>
+<td>&#x5E26;&#x5C16;&#x9510;&#x91CD;&#x97F3;&#x7684;&#x5927;&#x5199;&#x5B57;&#x6BCD; A</td>
+</tr>
+<tr>
+<td>194</td>
+<td>302</td>
+<td>C2</td>
+<td>11000010</td>
+<td>&#xC2;</td>
+<td><code>&amp;#194;</code></td>
+<td>&#x5E26;&#x97F3;&#x8C03;&#x7B26;&#x53F7;&#x7684;&#x5927;&#x5199;&#x5B57;&#x6BCD; A</td>
+</tr>
+<tr>
+<td>195</td>
+<td>303</td>
+<td>C3</td>
+<td>11000011</td>
+<td>&#xC3;</td>
+<td><code>&amp;#195;</code></td>
+<td>&#x5E26;&#x4EE3;&#x5B57;&#x53F7;&#x7684;&#x5927;&#x5199;&#x5B57;&#x6BCD; A</td>
+</tr>
+<tr>
+<td>196</td>
+<td>304</td>
+<td>C4</td>
+<td>11000100</td>
+<td>&#xC4;</td>
+<td><code>&amp;#196;</code></td>
+<td>&#x5E26;&#x5143;&#x97F3;&#x53D8;&#x97F3;(&#x5206;&#x97F3;&#x7B26;&#x53F7;)&#x7684;&#x5927;&#x5199;&#x5B57;&#x6BCD; A</td>
+</tr>
+<tr>
+<td>197</td>
+<td>305</td>
+<td>C5</td>
+<td>11000101</td>
+<td>&#xC5;</td>
+<td><code>&amp;#197;</code></td>
+<td>&#x5E26;&#x94C3;&#x58F0;&#x7684;&#x5927;&#x5199;&#x5B57;&#x6BCD; A</td>
+</tr>
+<tr>
+<td>198</td>
+<td>306</td>
+<td>C6</td>
+<td>11000110</td>
+<td>&#xC6;</td>
+<td><code>&amp;#198;</code></td>
+<td>&#x5927;&#x5199;&#x5B57;&#x6BCD; AE&#x53CC;&#x91CD;&#x5143;&#x97F3;</td>
+</tr>
+<tr>
+<td>199</td>
+<td>307</td>
+<td>C7</td>
+<td>11000111</td>
+<td>&#xC7;</td>
+<td><code>&amp;#199;</code></td>
+<td>&#x5E26;&#x53D8;&#x97F3;&#x7B26;&#x53F7;&#x7684;&#x5927;&#x5199;&#x5B57;&#x6BCD; C</td>
+</tr>
+<tr>
+<td>200</td>
+<td>310</td>
+<td>C8</td>
+<td>11001000</td>
+<td>&#xC8;</td>
+<td><code>&amp;#200;</code></td>
+<td>&#x5E26;&#x91CD;&#x97F3;&#x7B26;&#x7684;&#x5927;&#x5199;&#x5B57;&#x6BCD; E</td>
+</tr>
+<tr>
+<td>201</td>
+<td>311</td>
+<td>C9</td>
+<td>11001001</td>
+<td>&#xC9;</td>
+<td><code>&amp;#201;</code></td>
+<td>&#x5E26;&#x5C16;&#x9510;&#x91CD;&#x97F3;&#x7684;&#x5927;&#x5199;&#x5B57;&#x6BCD; E</td>
+</tr>
+<tr>
+<td>202</td>
+<td>312</td>
+<td>CA</td>
+<td>11001010</td>
+<td>&#xCA;</td>
+<td><code>&amp;#202;</code></td>
+<td>&#x5E26;&#x97F3;&#x8C03;&#x7B26;&#x53F7;&#x7684;&#x5927;&#x5199;&#x5B57;&#x6BCD; E</td>
+</tr>
+<tr>
+<td>203</td>
+<td>313</td>
+<td>CB</td>
+<td>11001011</td>
+<td>&#xCB;</td>
+<td><code>&amp;#203;</code></td>
+<td>&#x5E26;&#x5143;&#x97F3;&#x53D8;&#x97F3;(&#x5206;&#x97F3;&#x7B26;&#x53F7;)&#x7684;&#x5927;&#x5199;&#x5B57;&#x6BCD; E</td>
+</tr>
+<tr>
+<td>204</td>
+<td>314</td>
+<td>CC</td>
+<td>11001100</td>
+<td>&#xCC;</td>
+<td><code>&amp;#204;</code></td>
+<td>&#x5E26;&#x91CD;&#x97F3;&#x7B26;&#x7684;&#x5927;&#x5199;&#x5B57;&#x6BCD; I</td>
+</tr>
+<tr>
+<td>205</td>
+<td>315</td>
+<td>CD</td>
+<td>11001101</td>
+<td>&#xCD;</td>
+<td><code>&amp;#205;</code></td>
+<td>&#x5E26;&#x5C16;&#x9510;&#x91CD;&#x97F3;&#x7684;&#x5927;&#x5199;&#x5B57;&#x6BCD; I</td>
+</tr>
+<tr>
+<td>206</td>
+<td>316</td>
+<td>CE</td>
+<td>11001110</td>
+<td>&#xCE;</td>
+<td><code>&amp;#206;</code></td>
+<td>&#x5E26;&#x97F3;&#x8C03;&#x7B26;&#x53F7;&#x7684;&#x5927;&#x5199;&#x5B57;&#x6BCD; I</td>
+</tr>
+<tr>
+<td>207</td>
+<td>317</td>
+<td>CF</td>
+<td>11001111</td>
+<td>&#xCF;</td>
+<td><code>&amp;#207;</code></td>
+<td>&#x5E26;&#x5143;&#x97F3;&#x53D8;&#x97F3;(&#x5206;&#x97F3;&#x7B26;&#x53F7;)&#x7684;&#x5927;&#x5199;&#x5B57;&#x6BCD; I</td>
+</tr>
+<tr>
+<td>208</td>
+<td>320</td>
+<td>D0</td>
+<td>11010000</td>
+<td>&#xD0;</td>
+<td><code>&amp;#208;</code></td>
+<td>&#xA0;</td>
+</tr>
+<tr>
+<td>209</td>
+<td>321</td>
+<td>D1</td>
+<td>11010001</td>
+<td>&#xD1;</td>
+<td><code>&amp;#209;</code></td>
+<td>&#x5E26;&#x4EE3;&#x5B57;&#x53F7;&#x7684;&#x5927;&#x5199;&#x5B57;&#x6BCD; N</td>
+</tr>
+<tr>
+<td>210</td>
+<td>322</td>
+<td>D2</td>
+<td>11010010</td>
+<td>&#xD2;</td>
+<td><code>&amp;#210;</code></td>
+<td>&#x5E26;&#x91CD;&#x97F3;&#x7B26;&#x7684;&#x5927;&#x5199;&#x5B57;&#x6BCD; O</td>
+</tr>
+<tr>
+<td>211</td>
+<td>323</td>
+<td>D3</td>
+<td>11010011</td>
+<td>&#xD3;</td>
+<td><code>&amp;#211;</code></td>
+<td>&#x5E26;&#x5C16;&#x9510;&#x91CD;&#x97F3;&#x7684;&#x5927;&#x5199;&#x5B57;&#x6BCD; O</td>
+</tr>
+<tr>
+<td>212</td>
+<td>324</td>
+<td>D4</td>
+<td>11010100</td>
+<td>&#xD4;</td>
+<td><code>&amp;#212;</code></td>
+<td>&#x5E26;&#x97F3;&#x8C03;&#x7B26;&#x53F7;&#x7684;&#x5927;&#x5199;&#x5B57;&#x6BCD; O</td>
+</tr>
+<tr>
+<td>213</td>
+<td>325</td>
+<td>D5</td>
+<td>11010101</td>
+<td>&#xD5;</td>
+<td><code>&amp;#213;</code></td>
+<td>&#x5E26;&#x4EE3;&#x5B57;&#x53F7;&#x7684;&#x5927;&#x5199;&#x5B57;&#x6BCD; O</td>
+</tr>
+<tr>
+<td>214</td>
+<td>326</td>
+<td>D6</td>
+<td>11010110</td>
+<td>&#xD6;</td>
+<td><code>&amp;#214;</code></td>
+<td>&#x5E26;&#x5143;&#x97F3;&#x53D8;&#x97F3;(&#x5206;&#x97F3;&#x7B26;&#x53F7;)&#x7684;&#x5927;&#x5199;&#x5B57;&#x6BCD; O</td>
+</tr>
+<tr>
+<td>215</td>
+<td>327</td>
+<td>D7</td>
+<td>11010111</td>
+<td>&#xD7;</td>
+<td><code>&amp;#215;</code></td>
+<td>&#x5927;&#x5199;&#x5B57;&#x6BCD;OE &#x8FDE;&#x5B57;</td>
+</tr>
+<tr>
+<td>216</td>
+<td>330</td>
+<td>D8</td>
+<td>11011000</td>
+<td>&#xD8;</td>
+<td><code>&amp;#216;</code></td>
+<td>&#x5E26;&#x659C;&#x6760;&#x7684;&#x5927;&#x5199;&#x5B57;&#x6BCD; O</td>
+</tr>
+<tr>
+<td>217</td>
+<td>331</td>
+<td>D9</td>
+<td>11011001</td>
+<td>&#xD9;</td>
+<td><code>&amp;#217;</code></td>
+<td>&#x5E26;&#x91CD;&#x97F3;&#x7B26;&#x7684;&#x5927;&#x5199;&#x5B57;&#x6BCD; U</td>
+</tr>
+<tr>
+<td>218</td>
+<td>332</td>
+<td>DA</td>
+<td>11011010</td>
+<td>&#xDA;</td>
+<td><code>&amp;#218;</code></td>
+<td>&#x5E26;&#x5C16;&#x9510;&#x91CD;&#x97F3;&#x7684;&#x5927;&#x5199;&#x5B57;&#x6BCD; U</td>
+</tr>
+<tr>
+<td>219</td>
+<td>333</td>
+<td>DB</td>
+<td>11011011</td>
+<td>&#xDB;</td>
+<td><code>&amp;#219;</code></td>
+<td>&#x5E26;&#x97F3;&#x8C03;&#x7B26;&#x53F7;&#x7684;&#x5927;&#x5199;&#x5B57;&#x6BCD; U</td>
+</tr>
+<tr>
+<td>220</td>
+<td>334</td>
+<td>DC</td>
+<td>11011100</td>
+<td>&#xDC;</td>
+<td><code>&amp;#220;</code></td>
+<td>&#x5E26;&#x5143;&#x97F3;&#x53D8;&#x97F3;(&#x5206;&#x97F3;&#x7B26;&#x53F7;)&#x7684;&#x5927;&#x5199;&#x5B57;&#x6BCD; U</td>
+</tr>
+<tr>
+<td>221</td>
+<td>335</td>
+<td>DD</td>
+<td>11011101</td>
+<td>&#xDD;</td>
+<td><code>&amp;#221;</code></td>
+<td>&#x5E26;&#x5143;&#x97F3;&#x53D8;&#x97F3;(&#x5206;&#x97F3;&#x7B26;&#x53F7;)&#x7684;&#x5927;&#x5199;&#x5B57;&#x6BCD; Y</td>
+</tr>
+<tr>
+<td>222</td>
+<td>336</td>
+<td>DE</td>
+<td>11011110</td>
+<td>&#xDE;</td>
+<td><code>&amp;#222;</code></td>
+<td>&#xA0;</td>
+</tr>
+<tr>
+<td>223</td>
+<td>337</td>
+<td>DF</td>
+<td>11011111</td>
+<td>&#xDF;</td>
+<td><code>&amp;#223;</code></td>
+<td>&#x5FB7;&#x8BED;&#x9AD8;&#x8C03;&#x5C0F;&#x5199;&#x5B57;&#x6BCD; s</td>
+</tr>
+<tr>
+<td>224</td>
+<td>340</td>
+<td>E0</td>
+<td>11100000</td>
+<td>&#xE0;</td>
+<td><code>&amp;#224;</code></td>
+<td>&#x5E26;&#x91CD;&#x97F3;&#x7B26;&#x7684;&#x5C0F;&#x5199;&#x5B57;&#x6BCD; a</td>
+</tr>
+<tr>
+<td>225</td>
+<td>341</td>
+<td>E1</td>
+<td>11100001</td>
+<td>&#xE1;</td>
+<td><code>&amp;#225;</code></td>
+<td>&#x5E26;&#x5C16;&#x9510;&#x91CD;&#x97F3;&#x7684;&#x5C0F;&#x5199;&#x5B57;&#x6BCD; a</td>
+</tr>
+<tr>
+<td>226</td>
+<td>342</td>
+<td>E2</td>
+<td>11100010</td>
+<td>&#xE2;</td>
+<td><code>&amp;#226;</code></td>
+<td>&#x5E26;&#x97F3;&#x8C03;&#x7B26;&#x53F7;&#x7684;&#x5C0F;&#x5199;&#x5B57;&#x6BCD; a</td>
+</tr>
+<tr>
+<td>227</td>
+<td>343</td>
+<td>E3</td>
+<td>11100011</td>
+<td>&#xE3;</td>
+<td><code>&amp;#227;</code></td>
+<td>&#x5E26;&#x4EE3;&#x5B57;&#x53F7;&#x7684;&#x5C0F;&#x5199;&#x5B57;&#x6BCD; a</td>
+</tr>
+<tr>
+<td>228</td>
+<td>344</td>
+<td>E4</td>
+<td>11100100</td>
+<td>&#xE4;</td>
+<td><code>&amp;#228;</code></td>
+<td>&#x5E26;&#x5143;&#x97F3;&#x53D8;&#x97F3;(&#x5206;&#x97F3;&#x7B26;&#x53F7;)&#x7684;&#x5C0F;&#x5199;&#x5B57;&#x6BCD; a</td>
+</tr>
+<tr>
+<td>229</td>
+<td>345</td>
+<td>E5</td>
+<td>11100101</td>
+<td>&#xE5;</td>
+<td><code>&amp;#229;</code></td>
+<td>&#x5E26;&#x94C3;&#x58F0;&#x7684;&#x5C0F;&#x5199;&#x5B57;&#x6BCD; a</td>
+</tr>
+<tr>
+<td>230</td>
+<td>346</td>
+<td>E6</td>
+<td>11100110</td>
+<td>&#xE6;</td>
+<td><code>&amp;#230;</code></td>
+<td>&#x5C0F;&#x5199;&#x5B57;&#x6BCD; ae&#x53CC;&#x91CD;&#x5143;&#x97F3;</td>
+</tr>
+<tr>
+<td>231</td>
+<td>347</td>
+<td>E7</td>
+<td>11100111</td>
+<td>&#xE7;</td>
+<td><code>&amp;#231;</code></td>
+<td>&#x5E26;&#x53D8;&#x97F3;&#x7B26;&#x53F7;&#x7684;&#x5C0F;&#x5199;&#x5B57;&#x6BCD; c</td>
+</tr>
+<tr>
+<td>232</td>
+<td>350</td>
+<td>E8</td>
+<td>11101000</td>
+<td>&#xE8;</td>
+<td><code>&amp;#232;</code></td>
+<td>&#x5E26;&#x91CD;&#x97F3;&#x7B26;&#x7684;&#x5C0F;&#x5199;&#x5B57;&#x6BCD; e</td>
+</tr>
+<tr>
+<td>233</td>
+<td>351</td>
+<td>E9</td>
+<td>11101001</td>
+<td>&#xE9;</td>
+<td><code>&amp;#233;</code></td>
+<td>&#x5E26;&#x5C16;&#x9510;&#x91CD;&#x97F3;&#x7684;&#x5C0F;&#x5199;&#x5B57;&#x6BCD; e</td>
+</tr>
+<tr>
+<td>234</td>
+<td>352</td>
+<td>EA</td>
+<td>11101010</td>
+<td>&#xEA;</td>
+<td><code>&amp;#234;</code></td>
+<td>&#x5E26;&#x97F3;&#x8C03;&#x7B26;&#x53F7;&#x7684;&#x5C0F;&#x5199;&#x5B57;&#x6BCD; e</td>
+</tr>
+<tr>
+<td>235</td>
+<td>353</td>
+<td>EB</td>
+<td>11101011</td>
+<td>&#xEB;</td>
+<td><code>&amp;#235;</code></td>
+<td>&#x5E26;&#x5143;&#x97F3;&#x53D8;&#x97F3;(&#x5206;&#x97F3;&#x7B26;&#x53F7;)&#x7684;&#x5C0F;&#x5199;&#x5B57;&#x6BCD; e</td>
+</tr>
+<tr>
+<td>236</td>
+<td>354</td>
+<td>EC</td>
+<td>11101100</td>
+<td>&#xEC;</td>
+<td><code>&amp;#236;</code></td>
+<td>&#x5E26;&#x91CD;&#x97F3;&#x7B26;&#x7684;&#x5C0F;&#x5199;&#x5B57;&#x6BCD; i</td>
+</tr>
+<tr>
+<td>237</td>
+<td>355</td>
+<td>ED</td>
+<td>11101101</td>
+<td>&#xED;</td>
+<td><code>&amp;#237;</code></td>
+<td>&#x5E26;&#x5C16;&#x9510;&#x91CD;&#x97F3;&#x7684;&#x5C0F;&#x5199;&#x5B57;&#x6BCD; i</td>
+</tr>
+<tr>
+<td>238</td>
+<td>356</td>
+<td>EE</td>
+<td>11101110</td>
+<td>&#xEE;</td>
+<td><code>&amp;#238;</code></td>
+<td>&#x5E26;&#x97F3;&#x8C03;&#x7B26;&#x53F7;&#x7684;&#x5C0F;&#x5199;&#x5B57;&#x6BCD; i</td>
+</tr>
+<tr>
+<td>239</td>
+<td>357</td>
+<td>EF</td>
+<td>11101111</td>
+<td>&#xEF;</td>
+<td><code>&amp;#239;</code></td>
+<td>&#x5E26;&#x5143;&#x97F3;&#x53D8;&#x97F3;(&#x5206;&#x97F3;&#x7B26;&#x53F7;)&#x7684;&#x5C0F;&#x5199;&#x5B57;&#x6BCD; i</td>
+</tr>
+<tr>
+<td>240</td>
+<td>360</td>
+<td>F0</td>
+<td>11110000</td>
+<td>&#xF0;</td>
+<td><code>&amp;#240;</code></td>
+<td>&#xA0;</td>
+</tr>
+<tr>
+<td>241</td>
+<td>361</td>
+<td>F1</td>
+<td>11110001</td>
+<td>&#xF1;</td>
+<td><code>&amp;#241;</code></td>
+<td>&#x5E26;&#x4EE3;&#x5B57;&#x53F7;&#x7684;&#x5C0F;&#x5199;&#x5B57;&#x6BCD; n</td>
+</tr>
+<tr>
+<td>242</td>
+<td>362</td>
+<td>F2</td>
+<td>11110010</td>
+<td>&#xF2;</td>
+<td><code>&amp;#242;</code></td>
+<td>&#x5E26;&#x91CD;&#x97F3;&#x7B26;&#x7684;&#x5C0F;&#x5199;&#x5B57;&#x6BCD; o</td>
+</tr>
+<tr>
+<td>243</td>
+<td>363</td>
+<td>F3</td>
+<td>11110011</td>
+<td>&#xF3;</td>
+<td><code>&amp;#243;</code></td>
+<td>&#x5E26;&#x5C16;&#x9510;&#x91CD;&#x97F3;&#x7684;&#x5C0F;&#x5199;&#x5B57;&#x6BCD; o</td>
+</tr>
+<tr>
+<td>244</td>
+<td>364</td>
+<td>F4</td>
+<td>11110100</td>
+<td>&#xF4;</td>
+<td><code>&amp;#244;</code></td>
+<td>&#x5E26;&#x97F3;&#x8C03;&#x7B26;&#x53F7;&#x7684;&#x5C0F;&#x5199;&#x5B57;&#x6BCD; o</td>
+</tr>
+<tr>
+<td>245</td>
+<td>365</td>
+<td>F5</td>
+<td>11110101</td>
+<td>&#xF5;</td>
+<td><code>&amp;#245;</code></td>
+<td>&#x5E26;&#x4EE3;&#x5B57;&#x53F7;&#x7684;&#x5C0F;&#x5199;&#x5B57;&#x6BCD; o</td>
+</tr>
+<tr>
+<td>246</td>
+<td>366</td>
+<td>F6</td>
+<td>11110110</td>
+<td>&#xF6;</td>
+<td><code>&amp;#246;</code></td>
+<td>&#x5E26;&#x5143;&#x97F3;&#x53D8;&#x97F3;(&#x5206;&#x97F3;&#x7B26;&#x53F7;)&#x7684;&#x5C0F;&#x5199;&#x5B57;&#x6BCD; o</td>
+</tr>
+<tr>
+<td>247</td>
+<td>367</td>
+<td>F7</td>
+<td>11110111</td>
+<td>&#xF7;</td>
+<td><code>&amp;#247;</code></td>
+<td>&#x5C0F;&#x5199;&#x5B57;&#x6BCD; oe&#x8FDE;&#x5B57;</td>
+</tr>
+<tr>
+<td>248</td>
+<td>370</td>
+<td>F8</td>
+<td>11111000</td>
+<td>&#xF8;</td>
+<td><code>&amp;#248;</code></td>
+<td>&#x5E26;&#x659C;&#x6760;&#x7684;&#x5C0F;&#x5199;&#x5B57;&#x6BCD; o</td>
+</tr>
+<tr>
+<td>249</td>
+<td>371</td>
+<td>F9</td>
+<td>11111001</td>
+<td>&#xF9;</td>
+<td><code>&amp;#249;</code></td>
+<td>&#x5E26;&#x91CD;&#x97F3;&#x7B26;&#x7684;&#x5C0F;&#x5199;&#x5B57;&#x6BCD; u</td>
+</tr>
+<tr>
+<td>250</td>
+<td>372</td>
+<td>FA</td>
+<td>11111010</td>
+<td>&#xFA;</td>
+<td><code>&amp;#250;</code></td>
+<td>&#x5E26;&#x5C16;&#x9510;&#x91CD;&#x97F3;&#x7684;&#x5C0F;&#x5199;&#x5B57;&#x6BCD; u</td>
+</tr>
+<tr>
+<td>251</td>
+<td>373</td>
+<td>FB</td>
+<td>11111011</td>
+<td>&#xFB;</td>
+<td><code>&amp;#251;</code></td>
+<td>&#x5E26;&#x97F3;&#x8C03;&#x7B26;&#x53F7;&#x7684;&#x5C0F;&#x5199;&#x5B57;&#x6BCD; u</td>
+</tr>
+<tr>
+<td>252</td>
+<td>374</td>
+<td>FC</td>
+<td>11111100</td>
+<td>&#xFC;</td>
+<td><code>&amp;#252;</code></td>
+<td>&#x5E26;&#x5143;&#x97F3;&#x53D8;&#x97F3;(&#x5206;&#x97F3;&#x7B26;&#x53F7;)&#x7684;&#x5C0F;&#x5199;&#x5B57;&#x6BCD; u</td>
+</tr>
+<tr>
+<td>253</td>
+<td>375</td>
+<td>FD</td>
+<td>11111101</td>
+<td>&#xFD;</td>
+<td><code>&amp;#253;</code></td>
+<td>&#x5E26;&#x5143;&#x97F3;&#x53D8;&#x97F3;(&#x5206;&#x97F3;&#x7B26;&#x53F7;)&#x7684;&#x5C0F;&#x5199;&#x5B57;&#x6BCD; y</td>
+</tr>
+<tr>
+<td>254</td>
+<td>376</td>
+<td>FE</td>
+<td>11111110</td>
+<td>&#xFE;</td>
+<td><code>&amp;#254;</code></td>
+<td>&#xA0;</td>
+</tr>
+<tr>
+<td>255</td>
+<td>377</td>
+<td>FF</td>
+<td>11111111</td>
+<td>&#xFF;</td>
+<td><code>&amp;#255;</code></td>
+<td>&#xA0;</td>
+</tr>
+</tbody>
+</table>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
